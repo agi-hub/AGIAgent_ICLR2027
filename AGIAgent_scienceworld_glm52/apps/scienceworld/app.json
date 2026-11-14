@@ -1,0 +1,7 @@
+{
+  "app_name": "ScienceWorld",
+  "app_title": "ScienceWorld Runner",
+  "prompts_path": "prompts",
+  "routine_path": "routine",
+  "config_path": "config.txt"
+}

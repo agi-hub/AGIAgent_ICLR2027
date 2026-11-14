@@ -1,0 +1,2131 @@
+Game,Method,Episode,Score
+Detective,EvoTest,1,20
+Detective,EvoPrompt,1,20
+Detective,Reflexion,1,20
+Detective,GRPO,1,20
+Detective,Memory,1,20
+Detective,Static,1,20
+Library,EvoTest,1,10
+Library,EvoPrompt,1,10
+Library,Reflexion,1,10
+Library,GRPO,1,10
+Library,Memory,1,10
+Library,Static,1,10
+Zork1,EvoTest,1,10
+Zork1,EvoPrompt,1,10
+Zork1,Reflexion,1,10
+Zork1,GRPO,1,10
+Zork1,Memory,1,10
+Zork1,Static,1,10
+Zork3,EvoTest,1,0
+Zork3,EvoPrompt,1,0
+Zork3,Reflexion,1,0
+Zork3,GRPO,1,0
+Zork3,Memory,1,0
+Zork3,Static,1,0
+Balances,EvoTest,1,8
+Balances,EvoPrompt,1,8
+Balances,Reflexion,1,8
+Balances,GRPO,1,8
+Balances,Memory,1,8
+Balances,Static,1,8
+Temple,EvoTest,1,4
+Temple,EvoPrompt,1,4
+Temple,Reflexion,1,4
+Temple,GRPO,1,4
+Temple,Memory,1,4
+Temple,Static,1,4
+Detective,EvoTest,2,70
+Detective,EvoPrompt,2,60
+Detective,Reflexion,2,110
+Detective,GRPO,2,30
+Detective,Memory,2,80
+Detective,Static,2,20
+Library,EvoTest,2,10
+Library,EvoPrompt,2,11
+Library,Reflexion,2,10
+Library,GRPO,2,14
+Library,Memory,2,10
+Library,Static,2,10
+Zork1,EvoTest,2,35
+Zork1,EvoPrompt,2,10
+Zork1,Reflexion,2,15
+Zork1,GRPO,2,10
+Zork1,Memory,2,15
+Zork1,Static,2,10
+Zork3,EvoTest,2,0
+Zork3,EvoPrompt,2,1
+Zork3,Reflexion,2,1
+Zork3,GRPO,2,2
+Zork3,Memory,2,1
+Zork3,Static,2,0
+Balances,EvoTest,2,8
+Balances,EvoPrompt,2,8
+Balances,Reflexion,2,8
+Balances,GRPO,2,13
+Balances,Memory,2,8
+Balances,Static,2,8
+Temple,EvoTest,2,4
+Temple,EvoPrompt,2,7
+Temple,Reflexion,2,4
+Temple,GRPO,2,9
+Temple,Memory,2,4
+Temple,Static,2,4
+Detective,EvoTest,3,320
+Detective,EvoPrompt,3,90
+Detective,Reflexion,3,100
+Detective,GRPO,3,100
+Detective,Memory,3,70
+Detective,Static,3,30
+Library,EvoTest,3,10
+Library,EvoPrompt,3,13
+Library,Reflexion,3,12
+Library,GRPO,3,11
+Library,Memory,3,11
+Library,Static,3,10
+Zork1,EvoTest,3,25
+Zork1,EvoPrompt,3,15
+Zork1,Reflexion,3,15
+Zork1,GRPO,3,25
+Zork1,Memory,3,15
+Zork1,Static,3,10
+Zork3,EvoTest,3,1
+Zork3,EvoPrompt,3,2
+Zork3,Reflexion,3,1
+Zork3,GRPO,3,1
+Zork3,Memory,3,1
+Zork3,Static,3,0
+Balances,EvoTest,3,8
+Balances,EvoPrompt,3,10
+Balances,Reflexion,3,10
+Balances,GRPO,3,8
+Balances,Memory,3,8
+Balances,Static,3,3
+Temple,EvoTest,3,4
+Temple,EvoPrompt,3,4
+Temple,Reflexion,3,7
+Temple,GRPO,3,4
+Temple,Memory,3,4
+Temple,Static,3,4
+Detective,EvoTest,4,320
+Detective,EvoPrompt,4,110
+Detective,Reflexion,4,120
+Detective,GRPO,4,90
+Detective,Memory,4,80
+Detective,Static,4,20
+Library,EvoTest,4,10
+Library,EvoPrompt,4,12
+Library,Reflexion,4,11
+Library,GRPO,4,16
+Library,Memory,4,11
+Library,Static,4,10
+Zork1,EvoTest,4,40
+Zork1,EvoPrompt,4,20
+Zork1,Reflexion,4,10
+Zork1,GRPO,4,10
+Zork1,Memory,4,15
+Zork1,Static,4,10
+Zork3,EvoTest,4,3
+Zork3,EvoPrompt,4,1
+Zork3,Reflexion,4,2
+Zork3,GRPO,4,1
+Zork3,Memory,4,1
+Zork3,Static,4,1
+Balances,EvoTest,4,8
+Balances,EvoPrompt,4,10
+Balances,Reflexion,4,8
+Balances,GRPO,4,8
+Balances,Memory,4,10
+Balances,Static,4,8
+Temple,EvoTest,4,4
+Temple,EvoPrompt,4,7
+Temple,Reflexion,4,4
+Temple,GRPO,4,7
+Temple,Memory,4,7
+Temple,Static,4,4
+Detective,EvoTest,5,320
+Detective,EvoPrompt,5,150
+Detective,Reflexion,5,130
+Detective,GRPO,5,100
+Detective,Memory,5,90
+Detective,Static,5,20
+Library,EvoTest,5,10
+Library,EvoPrompt,5,15
+Library,Reflexion,5,13
+Library,GRPO,5,12
+Library,Memory,5,12
+Library,Static,5,10
+Zork1,EvoTest,5,35
+Zork1,EvoPrompt,5,20
+Zork1,Reflexion,5,20
+Zork1,GRPO,5,30
+Zork1,Memory,5,15
+Zork1,Static,5,10
+Zork3,EvoTest,5,3
+Zork3,EvoPrompt,5,2
+Zork3,Reflexion,5,1
+Zork3,GRPO,5,0
+Zork3,Memory,5,1
+Zork3,Static,5,0
+Balances,EvoTest,5,8
+Balances,EvoPrompt,5,10
+Balances,Reflexion,5,8
+Balances,GRPO,5,8
+Balances,Memory,5,10
+Balances,Static,5,8
+Temple,EvoTest,5,7
+Temple,EvoPrompt,5,4
+Temple,Reflexion,5,7
+Temple,GRPO,5,4
+Temple,Memory,5,7
+Temple,Static,5,4
+Detective,EvoTest,6,320
+Detective,EvoPrompt,6,140
+Detective,Reflexion,6,120
+Detective,GRPO,6,40
+Detective,Memory,6,80
+Detective,Static,6,20
+Library,EvoTest,6,17
+Library,EvoPrompt,6,14
+Library,Reflexion,6,12
+Library,GRPO,6,18
+Library,Memory,6,12
+Library,Static,6,10
+Zork1,EvoTest,6,44
+Zork1,EvoPrompt,6,35
+Zork1,Reflexion,6,20
+Zork1,GRPO,6,10
+Zork1,Memory,6,20
+Zork1,Static,6,0
+Zork3,EvoTest,6,3
+Zork3,EvoPrompt,6,2
+Zork3,Reflexion,6,2
+Zork3,GRPO,6,3
+Zork3,Memory,6,1
+Zork3,Static,6,0
+Balances,EvoTest,6,8
+Balances,EvoPrompt,6,10
+Balances,Reflexion,6,10
+Balances,GRPO,6,16
+Balances,Memory,6,10
+Balances,Static,6,8
+Temple,EvoTest,6,7
+Temple,EvoPrompt,6,9
+Temple,Reflexion,6,4
+Temple,GRPO,6,11
+Temple,Memory,6,7
+Temple,Static,6,9
+Detective,EvoTest,7,320
+Detective,EvoPrompt,7,180
+Detective,Reflexion,7,140
+Detective,GRPO,7,40
+Detective,Memory,7,90
+Detective,Static,7,20
+Library,EvoTest,7,17
+Library,EvoPrompt,7,16
+Library,Reflexion,7,14
+Library,GRPO,7,10
+Library,Memory,7,12
+Library,Static,7,10
+Zork1,EvoTest,7,35
+Zork1,EvoPrompt,7,25
+Zork1,Reflexion,7,25
+Zork1,GRPO,7,15
+Zork1,Memory,7,20
+Zork1,Static,7,10
+Zork3,EvoTest,7,3
+Zork3,EvoPrompt,7,1
+Zork3,Reflexion,7,1
+Zork3,GRPO,7,0
+Zork3,Memory,7,1
+Zork3,Static,7,0
+Balances,EvoTest,7,8
+Balances,EvoPrompt,7,8
+Balances,Reflexion,7,8
+Balances,GRPO,7,10
+Balances,Memory,7,10
+Balances,Static,7,8
+Temple,EvoTest,7,7
+Temple,EvoPrompt,7,7
+Temple,Reflexion,7,7
+Temple,GRPO,7,4
+Temple,Memory,7,7
+Temple,Static,7,4
+Detective,EvoTest,8,320
+Detective,EvoPrompt,8,200
+Detective,Reflexion,8,150
+Detective,GRPO,8,40
+Detective,Memory,8,100
+Detective,Static,8,30
+Library,EvoTest,8,19
+Library,EvoPrompt,8,13
+Library,Reflexion,8,13
+Library,GRPO,8,15
+Library,Memory,8,11
+Library,Static,8,10
+Zork1,EvoTest,8,50
+Zork1,EvoPrompt,8,20
+Zork1,Reflexion,8,25
+Zork1,GRPO,8,10
+Zork1,Memory,8,20
+Zork1,Static,8,15
+Zork3,EvoTest,8,3
+Zork3,EvoPrompt,8,2
+Zork3,Reflexion,8,1
+Zork3,GRPO,8,1
+Zork3,Memory,8,1
+Zork3,Static,8,0
+Balances,EvoTest,8,8
+Balances,EvoPrompt,8,10
+Balances,Reflexion,8,8
+Balances,GRPO,8,10
+Balances,Memory,8,10
+Balances,Static,8,8
+Temple,EvoTest,8,7
+Temple,EvoPrompt,8,4
+Temple,Reflexion,8,4
+Temple,GRPO,8,9
+Temple,Memory,8,7
+Temple,Static,8,4
+Detective,EvoTest,9,330
+Detective,EvoPrompt,9,220
+Detective,Reflexion,9,140
+Detective,GRPO,9,20
+Detective,Memory,9,90
+Detective,Static,9,20
+Library,EvoTest,9,19
+Library,EvoPrompt,9,16
+Library,Reflexion,9,15
+Library,GRPO,9,11
+Library,Memory,9,13
+Library,Static,9,10
+Zork1,EvoTest,9,35
+Zork1,EvoPrompt,9,30
+Zork1,Reflexion,9,20
+Zork1,GRPO,9,20
+Zork1,Memory,9,20
+Zork1,Static,9,10
+Zork3,EvoTest,9,3
+Zork3,EvoPrompt,9,3
+Zork3,Reflexion,9,2
+Zork3,GRPO,9,0
+Zork3,Memory,9,1
+Zork3,Static,9,0
+Balances,EvoTest,9,8
+Balances,EvoPrompt,9,8
+Balances,Reflexion,9,8
+Balances,GRPO,9,8
+Balances,Memory,9,10
+Balances,Static,9,8
+Temple,EvoTest,9,7
+Temple,EvoPrompt,9,9
+Temple,Reflexion,9,7
+Temple,GRPO,9,4
+Temple,Memory,9,7
+Temple,Static,9,4
+Detective,EvoTest,10,320
+Detective,EvoPrompt,10,210
+Detective,Reflexion,10,160
+Detective,GRPO,10,60
+Detective,Memory,10,100
+Detective,Static,10,20
+Library,EvoTest,10,19
+Library,EvoPrompt,10,13
+Library,Reflexion,10,14
+Library,GRPO,10,17
+Library,Memory,10,13
+Library,Static,10,10
+Zork1,EvoTest,10,35
+Zork1,EvoPrompt,10,30
+Zork1,Reflexion,10,25
+Zork1,GRPO,10,10
+Zork1,Memory,10,20
+Zork1,Static,10,10
+Zork3,EvoTest,10,3
+Zork3,EvoPrompt,10,2
+Zork3,Reflexion,10,1
+Zork3,GRPO,10,2
+Zork3,Memory,10,1
+Zork3,Static,10,0
+Balances,EvoTest,10,8
+Balances,EvoPrompt,10,8
+Balances,Reflexion,10,8
+Balances,GRPO,10,8
+Balances,Memory,10,10
+Balances,Static,10,8
+Temple,EvoTest,10,7
+Temple,EvoPrompt,10,7
+Temple,Reflexion,10,7
+Temple,GRPO,10,7
+Temple,Memory,10,7
+Temple,Static,10,4
+Detective,EvoTest,11,130
+Detective,EvoPrompt,11,230
+Detective,Reflexion,11,170
+Detective,GRPO,11,130
+Detective,Memory,11,110
+Detective,Static,11,20
+Library,EvoTest,11,19
+Library,EvoPrompt,11,13
+Library,Reflexion,11,13
+Library,GRPO,11,13
+Library,Memory,11,12
+Library,Static,11,10
+Zork1,EvoTest,11,50
+Zork1,EvoPrompt,11,25
+Zork1,Reflexion,11,25
+Zork1,GRPO,11,35
+Zork1,Memory,11,20
+Zork1,Static,11,10
+Zork3,EvoTest,11,3
+Zork3,EvoPrompt,11,1
+Zork3,Reflexion,11,2
+Zork3,GRPO,11,0
+Zork3,Memory,11,1
+Zork3,Static,11,0
+Balances,EvoTest,11,8
+Balances,EvoPrompt,11,8
+Balances,Reflexion,11,13
+Balances,GRPO,11,13
+Balances,Memory,11,10
+Balances,Static,11,8
+Temple,EvoTest,11,7
+Temple,EvoPrompt,11,9
+Temple,Reflexion,11,7
+Temple,GRPO,11,4
+Temple,Memory,11,7
+Temple,Static,11,4
+Detective,EvoTest,12,340
+Detective,EvoPrompt,12,250
+Detective,Reflexion,12,160
+Detective,GRPO,12,90
+Detective,Memory,12,100
+Detective,Static,12,20
+Library,EvoTest,12,19
+Library,EvoPrompt,12,19
+Library,Reflexion,12,15
+Library,GRPO,12,19
+Library,Memory,12,13
+Library,Static,12,10
+Zork1,EvoTest,12,40
+Zork1,EvoPrompt,12,35
+Zork1,Reflexion,12,20
+Zork1,GRPO,12,20
+Zork1,Memory,12,20
+Zork1,Static,12,10
+Zork3,EvoTest,12,1
+Zork3,EvoPrompt,12,2
+Zork3,Reflexion,12,1
+Zork3,GRPO,12,2
+Zork3,Memory,12,1
+Zork3,Static,12,0
+Balances,EvoTest,12,3
+Balances,EvoPrompt,12,8
+Balances,Reflexion,12,8
+Balances,GRPO,12,3
+Balances,Memory,12,10
+Balances,Static,12,8
+Temple,EvoTest,12,9
+Temple,EvoPrompt,12,7
+Temple,Reflexion,12,4
+Temple,GRPO,12,11
+Temple,Memory,12,7
+Temple,Static,12,9
+Detective,EvoTest,13,340
+Detective,EvoPrompt,13,140
+Detective,Reflexion,13,180
+Detective,GRPO,13,150
+Detective,Memory,13,110
+Detective,Static,13,20
+Library,EvoTest,13,19
+Library,EvoPrompt,13,18
+Library,Reflexion,13,16
+Library,GRPO,13,12
+Library,Memory,13,13
+Library,Static,13,10
+Zork1,EvoTest,13,40
+Zork1,EvoPrompt,13,35
+Zork1,Reflexion,13,25
+Zork1,GRPO,13,15
+Zork1,Memory,13,20
+Zork1,Static,13,10
+Zork3,EvoTest,13,2
+Zork3,EvoPrompt,13,2
+Zork3,Reflexion,13,1
+Zork3,GRPO,13,1
+Zork3,Memory,13,1
+Zork3,Static,13,1
+Balances,EvoTest,13,8
+Balances,EvoPrompt,13,13
+Balances,Reflexion,13,8
+Balances,GRPO,13,8
+Balances,Memory,13,10
+Balances,Static,13,8
+Temple,EvoTest,13,7
+Temple,EvoPrompt,13,4
+Temple,Reflexion,13,7
+Temple,GRPO,13,4
+Temple,Memory,13,7
+Temple,Static,13,4
+Detective,EvoTest,14,340
+Detective,EvoPrompt,14,260
+Detective,Reflexion,14,110
+Detective,GRPO,14,40
+Detective,Memory,14,100
+Detective,Static,14,20
+Library,EvoTest,14,19
+Library,EvoPrompt,14,20
+Library,Reflexion,14,15
+Library,GRPO,14,16
+Library,Memory,14,14
+Library,Static,14,10
+Zork1,EvoTest,14,40
+Zork1,EvoPrompt,14,30
+Zork1,Reflexion,14,25
+Zork1,GRPO,14,20
+Zork1,Memory,14,20
+Zork1,Static,14,10
+Zork3,EvoTest,14,0
+Zork3,EvoPrompt,14,2
+Zork3,Reflexion,14,2
+Zork3,GRPO,14,3
+Zork3,Memory,14,1
+Zork3,Static,14,0
+Balances,EvoTest,14,8
+Balances,EvoPrompt,14,8
+Balances,Reflexion,14,10
+Balances,GRPO,14,16
+Balances,Memory,14,10
+Balances,Static,14,8
+Temple,EvoTest,14,7
+Temple,EvoPrompt,14,9
+Temple,Reflexion,14,4
+Temple,GRPO,14,9
+Temple,Memory,14,7
+Temple,Static,14,4
+Detective,EvoTest,15,330
+Detective,EvoPrompt,15,250
+Detective,Reflexion,15,160
+Detective,GRPO,15,110
+Detective,Memory,15,80
+Detective,Static,15,20
+Library,EvoTest,15,19
+Library,EvoPrompt,15,19
+Library,Reflexion,15,14
+Library,GRPO,15,10
+Library,Memory,15,14
+Library,Static,15,10
+Zork1,EvoTest,15,40
+Zork1,EvoPrompt,15,35
+Zork1,Reflexion,15,30
+Zork1,GRPO,15,25
+Zork1,Memory,15,20
+Zork1,Static,15,0
+Zork3,EvoTest,15,3
+Zork3,EvoPrompt,15,1
+Zork3,Reflexion,15,1
+Zork3,GRPO,15,0
+Zork3,Memory,15,1
+Zork3,Static,15,0
+Balances,EvoTest,15,8
+Balances,EvoPrompt,15,10
+Balances,Reflexion,15,3
+Balances,GRPO,15,10
+Balances,Memory,15,10
+Balances,Static,15,8
+Temple,EvoTest,15,7
+Temple,EvoPrompt,15,7
+Temple,Reflexion,15,9
+Temple,GRPO,15,4
+Temple,Memory,15,7
+Temple,Static,15,0
+Detective,EvoTest,16,340
+Detective,EvoPrompt,16,170
+Detective,Reflexion,16,180
+Detective,GRPO,16,130
+Detective,Memory,16,100
+Detective,Static,16,20
+Library,EvoTest,16,19
+Library,EvoPrompt,16,18
+Library,Reflexion,16,16
+Library,GRPO,16,18
+Library,Memory,16,13
+Library,Static,16,10
+Zork1,EvoTest,16,35
+Zork1,EvoPrompt,16,35
+Zork1,Reflexion,16,30
+Zork1,GRPO,16,10
+Zork1,Memory,16,25
+Zork1,Static,16,10
+Zork3,EvoTest,16,2
+Zork3,EvoPrompt,16,2
+Zork3,Reflexion,16,2
+Zork3,GRPO,16,1
+Zork3,Memory,16,1
+Zork3,Static,16,0
+Balances,EvoTest,16,8
+Balances,EvoPrompt,16,13
+Balances,Reflexion,16,8
+Balances,GRPO,16,10
+Balances,Memory,16,10
+Balances,Static,16,8
+Temple,EvoTest,16,9
+Temple,EvoPrompt,16,9
+Temple,Reflexion,16,4
+Temple,GRPO,16,7
+Temple,Memory,16,7
+Temple,Static,16,4
+Detective,EvoTest,17,340
+Detective,EvoPrompt,17,280
+Detective,Reflexion,17,170
+Detective,GRPO,17,10
+Detective,Memory,17,110
+Detective,Static,17,20
+Library,EvoTest,17,19
+Library,EvoPrompt,17,20
+Library,Reflexion,17,15
+Library,GRPO,17,14
+Library,Memory,17,12
+Library,Static,17,10
+Zork1,EvoTest,17,45
+Zork1,EvoPrompt,17,40
+Zork1,Reflexion,17,25
+Zork1,GRPO,17,20
+Zork1,Memory,17,25
+Zork1,Static,17,15
+Zork3,EvoTest,17,3
+Zork3,EvoPrompt,17,2
+Zork3,Reflexion,17,1
+Zork3,GRPO,17,0
+Zork3,Memory,17,1
+Zork3,Static,17,0
+Balances,EvoTest,17,8
+Balances,EvoPrompt,17,10
+Balances,Reflexion,17,10
+Balances,GRPO,17,13
+Balances,Memory,17,10
+Balances,Static,17,8
+Temple,EvoTest,17,9
+Temple,EvoPrompt,17,7
+Temple,Reflexion,17,14
+Temple,GRPO,17,4
+Temple,Memory,17,7
+Temple,Static,17,4
+Detective,EvoTest,18,340
+Detective,EvoPrompt,18,260
+Detective,Reflexion,18,160
+Detective,GRPO,18,10
+Detective,Memory,18,90
+Detective,Static,18,20
+Library,EvoTest,18,19
+Library,EvoPrompt,18,19
+Library,Reflexion,18,17
+Library,GRPO,18,12
+Library,Memory,18,14
+Library,Static,18,10
+Zork1,EvoTest,18,50
+Zork1,EvoPrompt,18,40
+Zork1,Reflexion,18,30
+Zork1,GRPO,18,10
+Zork1,Memory,18,25
+Zork1,Static,18,10
+Zork3,EvoTest,18,3
+Zork3,EvoPrompt,18,3
+Zork3,Reflexion,18,1
+Zork3,GRPO,18,2
+Zork3,Memory,18,1
+Zork3,Static,18,0
+Balances,EvoTest,18,8
+Balances,EvoPrompt,18,10
+Balances,Reflexion,18,13
+Balances,GRPO,18,8
+Balances,Memory,18,10
+Balances,Static,18,8
+Temple,EvoTest,18,9
+Temple,EvoPrompt,18,4
+Temple,Reflexion,18,11
+Temple,GRPO,18,11
+Temple,Memory,18,7
+Temple,Static,18,0
+Detective,EvoTest,19,340
+Detective,EvoPrompt,19,290
+Detective,Reflexion,19,180
+Detective,GRPO,19,40
+Detective,Memory,19,90
+Detective,Static,19,20
+Library,EvoTest,19,19
+Library,EvoPrompt,19,21
+Library,Reflexion,19,16
+Library,GRPO,19,16
+Library,Memory,19,13
+Library,Static,19,10
+Zork1,EvoTest,19,50
+Zork1,EvoPrompt,19,35
+Zork1,Reflexion,19,30
+Zork1,GRPO,19,30
+Zork1,Memory,19,25
+Zork1,Static,19,10
+Zork3,EvoTest,19,2
+Zork3,EvoPrompt,19,2
+Zork3,Reflexion,19,2
+Zork3,GRPO,19,0
+Zork3,Memory,19,1
+Zork3,Static,19,0
+Balances,EvoTest,19,8
+Balances,EvoPrompt,19,8
+Balances,Reflexion,19,8
+Balances,GRPO,19,8
+Balances,Memory,19,10
+Balances,Static,19,8
+Temple,EvoTest,19,9
+Temple,EvoPrompt,19,9
+Temple,Reflexion,19,9
+Temple,GRPO,19,4
+Temple,Memory,19,7
+Temple,Static,19,4
+Detective,EvoTest,20,330
+Detective,EvoPrompt,20,280
+Detective,Reflexion,20,170
+Detective,GRPO,20,60
+Detective,Memory,20,100
+Detective,Static,20,20
+Library,EvoTest,20,19
+Library,EvoPrompt,20,20
+Library,Reflexion,20,15
+Library,GRPO,20,15
+Library,Memory,20,14
+Library,Static,20,10
+Zork1,EvoTest,20,54
+Zork1,EvoPrompt,20,40
+Zork1,Reflexion,20,25
+Zork1,GRPO,20,20
+Zork1,Memory,20,25
+Zork1,Static,20,10
+Zork3,EvoTest,20,1
+Zork3,EvoPrompt,20,1
+Zork3,Reflexion,20,1
+Zork3,GRPO,20,2
+Zork3,Memory,20,1
+Zork3,Static,20,0
+Balances,EvoTest,20,8
+Balances,EvoPrompt,20,10
+Balances,Reflexion,20,16
+Balances,GRPO,20,3
+Balances,Memory,20,10
+Balances,Static,20,8
+Temple,EvoTest,20,9
+Temple,EvoPrompt,20,7
+Temple,Reflexion,20,4
+Temple,GRPO,20,9
+Temple,Memory,20,7
+Temple,Static,20,4
+Detective,EvoTest,21,340
+Detective,EvoPrompt,21,270
+Detective,Reflexion,21,190
+Detective,GRPO,21,80
+Detective,Memory,21,120
+Detective,Static,21,20
+Library,EvoTest,21,19
+Library,EvoPrompt,21,19
+Library,Reflexion,21,17
+Library,GRPO,21,19
+Library,Memory,21,14
+Library,Static,21,10
+Zork1,EvoTest,21,50
+Zork1,EvoPrompt,21,45
+Zork1,Reflexion,21,30
+Zork1,GRPO,21,15
+Zork1,Memory,21,25
+Zork1,Static,21,0
+Zork3,EvoTest,21,3
+Zork3,EvoPrompt,21,2
+Zork3,Reflexion,21,2
+Zork3,GRPO,21,0
+Zork3,Memory,21,1
+Zork3,Static,21,0
+Balances,EvoTest,21,8
+Balances,EvoPrompt,21,8
+Balances,Reflexion,21,10
+Balances,GRPO,21,8
+Balances,Memory,21,10
+Balances,Static,21,8
+Temple,EvoTest,21,9
+Temple,EvoPrompt,21,9
+Temple,Reflexion,21,11
+Temple,GRPO,21,4
+Temple,Memory,21,7
+Temple,Static,21,4
+Detective,EvoTest,22,340
+Detective,EvoPrompt,22,290
+Detective,Reflexion,22,200
+Detective,GRPO,22,130
+Detective,Memory,22,100
+Detective,Static,22,20
+Library,EvoTest,22,19
+Library,EvoPrompt,22,21
+Library,Reflexion,22,16
+Library,GRPO,22,11
+Library,Memory,22,14
+Library,Static,22,10
+Zork1,EvoTest,22,54
+Zork1,EvoPrompt,22,35
+Zork1,Reflexion,22,30
+Zork1,GRPO,22,10
+Zork1,Memory,22,25
+Zork1,Static,22,0
+Zork3,EvoTest,22,3
+Zork3,EvoPrompt,22,2
+Zork3,Reflexion,22,1
+Zork3,GRPO,22,3
+Zork3,Memory,22,1
+Zork3,Static,22,1
+Balances,EvoTest,22,8
+Balances,EvoPrompt,22,13
+Balances,Reflexion,22,3
+Balances,GRPO,22,16
+Balances,Memory,22,10
+Balances,Static,22,8
+Temple,EvoTest,22,9
+Temple,EvoPrompt,22,11
+Temple,Reflexion,22,9
+Temple,GRPO,22,7
+Temple,Memory,22,7
+Temple,Static,22,4
+Detective,EvoTest,23,340
+Detective,EvoPrompt,23,300
+Detective,Reflexion,23,190
+Detective,GRPO,23,140
+Detective,Memory,23,120
+Detective,Static,23,30
+Library,EvoTest,23,24
+Library,EvoPrompt,23,20
+Library,Reflexion,23,18
+Library,GRPO,23,15
+Library,Memory,23,13
+Library,Static,23,10
+Zork1,EvoTest,23,54
+Zork1,EvoPrompt,23,40
+Zork1,Reflexion,23,25
+Zork1,GRPO,23,20
+Zork1,Memory,23,25
+Zork1,Static,23,0
+Zork3,EvoTest,23,2
+Zork3,EvoPrompt,23,2
+Zork3,Reflexion,23,1
+Zork3,GRPO,23,0
+Zork3,Memory,23,1
+Zork3,Static,23,0
+Balances,EvoTest,23,8
+Balances,EvoPrompt,23,8
+Balances,Reflexion,23,13
+Balances,GRPO,23,10
+Balances,Memory,23,10
+Balances,Static,23,8
+Temple,EvoTest,23,7
+Temple,EvoPrompt,23,9
+Temple,Reflexion,23,9
+Temple,GRPO,23,4
+Temple,Memory,23,7
+Temple,Static,23,4
+Detective,EvoTest,24,340
+Detective,EvoPrompt,24,280
+Detective,Reflexion,24,180
+Detective,GRPO,24,130
+Detective,Memory,24,210
+Detective,Static,24,20
+Library,EvoTest,24,24
+Library,EvoPrompt,24,22
+Library,Reflexion,24,17
+Library,GRPO,24,10
+Library,Memory,24,14
+Library,Static,24,10
+Zork1,EvoTest,24,44
+Zork1,EvoPrompt,24,30
+Zork1,Reflexion,24,30
+Zork1,GRPO,24,10
+Zork1,Memory,24,25
+Zork1,Static,24,10
+Zork3,EvoTest,24,2
+Zork3,EvoPrompt,24,1
+Zork3,Reflexion,24,2
+Zork3,GRPO,24,1
+Zork3,Memory,24,1
+Zork3,Static,24,0
+Balances,EvoTest,24,8
+Balances,EvoPrompt,24,10
+Balances,Reflexion,24,20
+Balances,GRPO,24,20
+Balances,Memory,24,10
+Balances,Static,24,8
+Temple,EvoTest,24,9
+Temple,EvoPrompt,24,7
+Temple,Reflexion,24,11
+Temple,GRPO,24,11
+Temple,Memory,24,7
+Temple,Static,24,4
+Detective,EvoTest,25,330
+Detective,EvoPrompt,25,290
+Detective,Reflexion,25,200
+Detective,GRPO,25,140
+Detective,Memory,25,120
+Detective,Static,25,20
+Library,EvoTest,25,24
+Library,EvoPrompt,25,21
+Library,Reflexion,25,16
+Library,GRPO,25,18
+Library,Memory,25,14
+Library,Static,25,10
+Zork1,EvoTest,25,40
+Zork1,EvoPrompt,25,45
+Zork1,Reflexion,25,30
+Zork1,GRPO,25,35
+Zork1,Memory,25,25
+Zork1,Static,25,10
+Zork3,EvoTest,25,1
+Zork3,EvoPrompt,25,2
+Zork3,Reflexion,25,1
+Zork3,GRPO,25,1
+Zork3,Memory,25,1
+Zork3,Static,25,0
+Balances,EvoTest,25,8
+Balances,EvoPrompt,25,13
+Balances,Reflexion,25,18
+Balances,GRPO,25,13
+Balances,Memory,25,10
+Balances,Static,25,8
+Temple,EvoTest,25,9
+Temple,EvoPrompt,25,11
+Temple,Reflexion,25,7
+Temple,GRPO,25,4
+Temple,Memory,25,7
+Temple,Static,25,4
+Detective,EvoTest,26,340
+Detective,EvoPrompt,26,270
+Detective,Reflexion,26,190
+Detective,GRPO,26,150
+Detective,Memory,26,100
+Detective,Static,26,20
+Library,EvoTest,26,24
+Library,EvoPrompt,26,20
+Library,Reflexion,26,15
+Library,GRPO,26,14
+Library,Memory,26,13
+Library,Static,26,10
+Zork1,EvoTest,26,54
+Zork1,EvoPrompt,26,25
+Zork1,Reflexion,26,35
+Zork1,GRPO,26,10
+Zork1,Memory,26,25
+Zork1,Static,26,10
+Zork3,EvoTest,26,3
+Zork3,EvoPrompt,26,2
+Zork3,Reflexion,26,2
+Zork3,GRPO,26,2
+Zork3,Memory,26,1
+Zork3,Static,26,1
+Balances,EvoTest,26,13
+Balances,EvoPrompt,26,16
+Balances,Reflexion,26,16
+Balances,GRPO,26,18
+Balances,Memory,26,10
+Balances,Static,26,8
+Temple,EvoTest,26,9
+Temple,EvoPrompt,26,9
+Temple,Reflexion,26,11
+Temple,GRPO,26,9
+Temple,Memory,26,7
+Temple,Static,26,0
+Detective,EvoTest,27,340
+Detective,EvoPrompt,27,300
+Detective,Reflexion,27,80
+Detective,GRPO,27,200
+Detective,Memory,27,100
+Detective,Static,27,20
+Library,EvoTest,27,26
+Library,EvoPrompt,27,22
+Library,Reflexion,27,17
+Library,GRPO,27,14
+Library,Memory,27,14
+Library,Static,27,10
+Zork1,EvoTest,27,50
+Zork1,EvoPrompt,27,40
+Zork1,Reflexion,27,35
+Zork1,GRPO,27,10
+Zork1,Memory,27,25
+Zork1,Static,27,15
+Zork3,EvoTest,27,3
+Zork3,EvoPrompt,27,3
+Zork3,Reflexion,27,1
+Zork3,GRPO,27,0
+Zork3,Memory,27,1
+Zork3,Static,27,0
+Balances,EvoTest,27,8
+Balances,EvoPrompt,27,16
+Balances,Reflexion,27,18
+Balances,GRPO,27,8
+Balances,Memory,27,10
+Balances,Static,27,3
+Temple,EvoTest,27,9
+Temple,EvoPrompt,27,7
+Temple,Reflexion,27,9
+Temple,GRPO,27,4
+Temple,Memory,27,7
+Temple,Static,27,4
+Detective,EvoTest,28,340
+Detective,EvoPrompt,28,290
+Detective,Reflexion,28,200
+Detective,GRPO,28,150
+Detective,Memory,28,230
+Detective,Static,28,20
+Library,EvoTest,28,26
+Library,EvoPrompt,28,21
+Library,Reflexion,28,16
+Library,GRPO,28,17
+Library,Memory,28,14
+Library,Static,28,10
+Zork1,EvoTest,28,54
+Zork1,EvoPrompt,28,45
+Zork1,Reflexion,28,30
+Zork1,GRPO,28,10
+Zork1,Memory,28,25
+Zork1,Static,28,10
+Zork3,EvoTest,28,3
+Zork3,EvoPrompt,28,2
+Zork3,Reflexion,28,1
+Zork3,GRPO,28,1
+Zork3,Memory,28,1
+Zork3,Static,28,1
+Balances,EvoTest,28,13
+Balances,EvoPrompt,28,13
+Balances,Reflexion,28,18
+Balances,GRPO,28,23
+Balances,Memory,28,10
+Balances,Static,28,8
+Temple,EvoTest,28,7
+Temple,EvoPrompt,28,11
+Temple,Reflexion,28,4
+Temple,GRPO,28,7
+Temple,Memory,28,7
+Temple,Static,28,4
+Detective,EvoTest,29,330
+Detective,EvoPrompt,29,280
+Detective,Reflexion,29,190
+Detective,GRPO,29,140
+Detective,Memory,29,120
+Detective,Static,29,20
+Library,EvoTest,29,24
+Library,EvoPrompt,29,20
+Library,Reflexion,29,18
+Library,GRPO,29,13
+Library,Memory,29,14
+Library,Static,29,10
+Zork1,EvoTest,29,64
+Zork1,EvoPrompt,29,45
+Zork1,Reflexion,29,35
+Zork1,GRPO,29,25
+Zork1,Memory,29,25
+Zork1,Static,29,10
+Zork3,EvoTest,29,3
+Zork3,EvoPrompt,29,1
+Zork3,Reflexion,29,2
+Zork3,GRPO,29,0
+Zork3,Memory,29,1
+Zork3,Static,29,0
+Balances,EvoTest,29,18
+Balances,EvoPrompt,29,13
+Balances,Reflexion,29,20
+Balances,GRPO,29,8
+Balances,Memory,29,10
+Balances,Static,29,8
+Temple,EvoTest,29,9
+Temple,EvoPrompt,29,9
+Temple,Reflexion,29,11
+Temple,GRPO,29,4
+Temple,Memory,29,7
+Temple,Static,29,4
+Detective,EvoTest,30,340
+Detective,EvoPrompt,30,250
+Detective,Reflexion,30,180
+Detective,GRPO,30,150
+Detective,Memory,30,130
+Detective,Static,30,20
+Library,EvoTest,30,26
+Library,EvoPrompt,30,21
+Library,Reflexion,30,17
+Library,GRPO,30,15
+Library,Memory,30,13
+Library,Static,30,10
+Zork1,EvoTest,30,50
+Zork1,EvoPrompt,30,40
+Zork1,Reflexion,30,35
+Zork1,GRPO,30,10
+Zork1,Memory,30,25
+Zork1,Static,30,10
+Zork3,EvoTest,30,3
+Zork3,EvoPrompt,30,2
+Zork3,Reflexion,30,1
+Zork3,GRPO,30,3
+Zork3,Memory,30,1
+Zork3,Static,30,0
+Balances,EvoTest,30,18
+Balances,EvoPrompt,30,16
+Balances,Reflexion,30,16
+Balances,GRPO,30,16
+Balances,Memory,30,10
+Balances,Static,30,8
+Temple,EvoTest,30,9
+Temple,EvoPrompt,30,7
+Temple,Reflexion,30,4
+Temple,GRPO,30,11
+Temple,Memory,30,7
+Temple,Static,30,4
+Detective,EvoTest,31,340
+Detective,EvoPrompt,31,290
+Detective,Reflexion,31,200
+Detective,GRPO,31,150
+Detective,Memory,31,90
+Detective,Static,31,20
+Library,EvoTest,31,24
+Library,EvoPrompt,31,21
+Library,Reflexion,31,14
+Library,GRPO,31,11
+Library,Memory,31,14
+Library,Static,31,10
+Zork1,EvoTest,31,50
+Zork1,EvoPrompt,31,25
+Zork1,Reflexion,31,30
+Zork1,GRPO,31,25
+Zork1,Memory,31,25
+Zork1,Static,31,10
+Zork3,EvoTest,31,3
+Zork3,EvoPrompt,31,2
+Zork3,Reflexion,31,2
+Zork3,GRPO,31,0
+Zork3,Memory,31,1
+Zork3,Static,31,0
+Balances,EvoTest,31,18
+Balances,EvoPrompt,31,13
+Balances,Reflexion,31,18
+Balances,GRPO,31,10
+Balances,Memory,31,10
+Balances,Static,31,8
+Temple,EvoTest,31,9
+Temple,EvoPrompt,31,11
+Temple,Reflexion,31,7
+Temple,GRPO,31,4
+Temple,Memory,31,7
+Temple,Static,31,0
+Detective,EvoTest,32,340
+Detective,EvoPrompt,32,310
+Detective,Reflexion,32,190
+Detective,GRPO,32,80
+Detective,Memory,32,50
+Detective,Static,32,20
+Library,EvoTest,32,26
+Library,EvoPrompt,32,22
+Library,Reflexion,32,15
+Library,GRPO,32,16
+Library,Memory,32,14
+Library,Static,32,10
+Zork1,EvoTest,32,54
+Zork1,EvoPrompt,32,45
+Zork1,Reflexion,32,35
+Zork1,GRPO,32,10
+Zork1,Memory,32,25
+Zork1,Static,32,10
+Zork3,EvoTest,32,3
+Zork3,EvoPrompt,32,2
+Zork3,Reflexion,32,1
+Zork3,GRPO,32,1
+Zork3,Memory,32,1
+Zork3,Static,32,0
+Balances,EvoTest,32,18
+Balances,EvoPrompt,32,16
+Balances,Reflexion,32,20
+Balances,GRPO,32,20
+Balances,Memory,32,10
+Balances,Static,32,8
+Temple,EvoTest,32,9
+Temple,EvoPrompt,32,9
+Temple,Reflexion,32,9
+Temple,GRPO,32,9
+Temple,Memory,32,7
+Temple,Static,32,4
+Detective,EvoTest,33,340
+Detective,EvoPrompt,33,180
+Detective,Reflexion,33,180
+Detective,GRPO,33,110
+Detective,Memory,33,100
+Detective,Static,33,20
+Library,EvoTest,33,24
+Library,EvoPrompt,33,20
+Library,Reflexion,33,15
+Library,GRPO,33,12
+Library,Memory,33,13
+Library,Static,33,10
+Zork1,EvoTest,33,54
+Zork1,EvoPrompt,33,40
+Zork1,Reflexion,33,35
+Zork1,GRPO,33,30
+Zork1,Memory,33,25
+Zork1,Static,33,0
+Zork3,EvoTest,33,1
+Zork3,EvoPrompt,33,1
+Zork3,Reflexion,33,1
+Zork3,GRPO,33,2
+Zork3,Memory,33,1
+Zork3,Static,33,1
+Balances,EvoTest,33,23
+Balances,EvoPrompt,33,16
+Balances,Reflexion,33,13
+Balances,GRPO,33,13
+Balances,Memory,33,10
+Balances,Static,33,8
+Temple,EvoTest,33,9
+Temple,EvoPrompt,33,7
+Temple,Reflexion,33,9
+Temple,GRPO,33,4
+Temple,Memory,33,7
+Temple,Static,33,4
+Detective,EvoTest,34,340
+Detective,EvoPrompt,34,300
+Detective,Reflexion,34,200
+Detective,GRPO,34,130
+Detective,Memory,34,110
+Detective,Static,34,20
+Library,EvoTest,34,26
+Library,EvoPrompt,34,22
+Library,Reflexion,34,15
+Library,GRPO,34,12
+Library,Memory,34,14
+Library,Static,34,10
+Zork1,EvoTest,34,54
+Zork1,EvoPrompt,34,45
+Zork1,Reflexion,34,30
+Zork1,GRPO,34,20
+Zork1,Memory,34,25
+Zork1,Static,34,10
+Zork3,EvoTest,34,2
+Zork3,EvoPrompt,34,2
+Zork3,Reflexion,34,2
+Zork3,GRPO,34,2
+Zork3,Memory,34,1
+Zork3,Static,34,0
+Balances,EvoTest,34,18
+Balances,EvoPrompt,34,13
+Balances,Reflexion,34,18
+Balances,GRPO,34,18
+Balances,Memory,34,10
+Balances,Static,34,8
+Temple,EvoTest,34,9
+Temple,EvoPrompt,34,11
+Temple,Reflexion,34,11
+Temple,GRPO,34,7
+Temple,Memory,34,7
+Temple,Static,34,4
+Detective,EvoTest,35,340
+Detective,EvoPrompt,35,290
+Detective,Reflexion,35,190
+Detective,GRPO,35,140
+Detective,Memory,35,110
+Detective,Static,35,20
+Library,EvoTest,35,24
+Library,EvoPrompt,35,22
+Library,Reflexion,35,18
+Library,GRPO,35,16
+Library,Memory,35,14
+Library,Static,35,10
+Zork1,EvoTest,35,50
+Zork1,EvoPrompt,35,45
+Zork1,Reflexion,35,35
+Zork1,GRPO,35,10
+Zork1,Memory,35,25
+Zork1,Static,35,10
+Zork3,EvoTest,35,1
+Zork3,EvoPrompt,35,2
+Zork3,Reflexion,35,1
+Zork3,GRPO,35,2
+Zork3,Memory,35,1
+Zork3,Static,35,0
+Balances,EvoTest,35,23
+Balances,EvoPrompt,35,16
+Balances,Reflexion,35,16
+Balances,GRPO,35,8
+Balances,Memory,35,10
+Balances,Static,35,8
+Temple,EvoTest,35,4
+Temple,EvoPrompt,35,9
+Temple,Reflexion,35,4
+Temple,GRPO,35,4
+Temple,Memory,35,7
+Temple,Static,35,4
+Detective,EvoTest,36,340
+Detective,EvoPrompt,36,160
+Detective,Reflexion,36,200
+Detective,GRPO,36,50
+Detective,Memory,36,130
+Detective,Static,36,20
+Library,EvoTest,36,26
+Library,EvoPrompt,36,21
+Library,Reflexion,36,17
+Library,GRPO,36,10
+Library,Memory,36,14
+Library,Static,36,10
+Zork1,EvoTest,36,54
+Zork1,EvoPrompt,36,30
+Zork1,Reflexion,36,35
+Zork1,GRPO,36,10
+Zork1,Memory,36,25
+Zork1,Static,36,10
+Zork3,EvoTest,36,3
+Zork3,EvoPrompt,36,3
+Zork3,Reflexion,36,2
+Zork3,GRPO,36,1
+Zork3,Memory,36,1
+Zork3,Static,36,0
+Balances,EvoTest,36,18
+Balances,EvoPrompt,36,16
+Balances,Reflexion,36,20
+Balances,GRPO,36,23
+Balances,Memory,36,10
+Balances,Static,36,8
+Temple,EvoTest,36,9
+Temple,EvoPrompt,36,7
+Temple,Reflexion,36,11
+Temple,GRPO,36,11
+Temple,Memory,36,7
+Temple,Static,36,0
+Detective,EvoTest,37,340
+Detective,EvoPrompt,37,180
+Detective,Reflexion,37,190
+Detective,GRPO,37,40
+Detective,Memory,37,130
+Detective,Static,37,20
+Library,EvoTest,37,24
+Library,EvoPrompt,37,20
+Library,Reflexion,37,18
+Library,GRPO,37,17
+Library,Memory,37,13
+Library,Static,37,10
+Zork1,EvoTest,37,40
+Zork1,EvoPrompt,37,45
+Zork1,Reflexion,37,30
+Zork1,GRPO,37,20
+Zork1,Memory,37,25
+Zork1,Static,37,15
+Zork3,EvoTest,37,3
+Zork3,EvoPrompt,37,2
+Zork3,Reflexion,37,1
+Zork3,GRPO,37,1
+Zork3,Memory,37,1
+Zork3,Static,37,0
+Balances,EvoTest,37,18
+Balances,EvoPrompt,37,13
+Balances,Reflexion,37,18
+Balances,GRPO,37,8
+Balances,Memory,37,10
+Balances,Static,37,8
+Temple,EvoTest,37,9
+Temple,EvoPrompt,37,11
+Temple,Reflexion,37,9
+Temple,GRPO,37,4
+Temple,Memory,37,7
+Temple,Static,37,4
+Detective,EvoTest,38,340
+Detective,EvoPrompt,38,290
+Detective,Reflexion,38,80
+Detective,GRPO,38,150
+Detective,Memory,38,110
+Detective,Static,38,40
+Library,EvoTest,38,26
+Library,EvoPrompt,38,21
+Library,Reflexion,38,11
+Library,GRPO,38,13
+Library,Memory,38,14
+Library,Static,38,10
+Zork1,EvoTest,38,50
+Zork1,EvoPrompt,38,45
+Zork1,Reflexion,38,15
+Zork1,GRPO,38,20
+Zork1,Memory,38,25
+Zork1,Static,38,10
+Zork3,EvoTest,38,3
+Zork3,EvoPrompt,38,1
+Zork3,Reflexion,38,1
+Zork3,GRPO,38,3
+Zork3,Memory,38,1
+Zork3,Static,38,0
+Balances,EvoTest,38,23
+Balances,EvoPrompt,38,10
+Balances,Reflexion,38,20
+Balances,GRPO,38,16
+Balances,Memory,38,10
+Balances,Static,38,8
+Temple,EvoTest,38,9
+Temple,EvoPrompt,38,9
+Temple,Reflexion,38,14
+Temple,GRPO,38,9
+Temple,Memory,38,7
+Temple,Static,38,4
+Detective,EvoTest,39,340
+Detective,EvoPrompt,39,310
+Detective,Reflexion,39,200
+Detective,GRPO,39,180
+Detective,Memory,39,120
+Detective,Static,39,40
+Library,EvoTest,39,24
+Library,EvoPrompt,39,21
+Library,Reflexion,39,13
+Library,GRPO,39,18
+Library,Memory,39,14
+Library,Static,39,10
+Zork1,EvoTest,39,50
+Zork1,EvoPrompt,39,45
+Zork1,Reflexion,39,15
+Zork1,GRPO,39,35
+Zork1,Memory,39,25
+Zork1,Static,39,10
+Zork3,EvoTest,39,3
+Zork3,EvoPrompt,39,2
+Zork3,Reflexion,39,2
+Zork3,GRPO,39,0
+Zork3,Memory,39,1
+Zork3,Static,39,0
+Balances,EvoTest,39,23
+Balances,EvoPrompt,39,16
+Balances,Reflexion,39,13
+Balances,GRPO,39,10
+Balances,Memory,39,10
+Balances,Static,39,3
+Temple,EvoTest,39,9
+Temple,EvoPrompt,39,7
+Temple,Reflexion,39,11
+Temple,GRPO,39,4
+Temple,Memory,39,7
+Temple,Static,39,4
+Detective,EvoTest,40,340
+Detective,EvoPrompt,40,300
+Detective,Reflexion,40,200
+Detective,GRPO,40,150
+Detective,Memory,40,100
+Detective,Static,40,30
+Library,EvoTest,40,26
+Library,EvoPrompt,40,20
+Library,Reflexion,40,18
+Library,GRPO,40,11
+Library,Memory,40,14
+Library,Static,40,10
+Zork1,EvoTest,40,54
+Zork1,EvoPrompt,40,25
+Zork1,Reflexion,40,20
+Zork1,GRPO,40,10
+Zork1,Memory,40,25
+Zork1,Static,40,10
+Zork3,EvoTest,40,3
+Zork3,EvoPrompt,40,2
+Zork3,Reflexion,40,1
+Zork3,GRPO,40,1
+Zork3,Memory,40,1
+Zork3,Static,40,0
+Balances,EvoTest,40,23
+Balances,EvoPrompt,40,13
+Balances,Reflexion,40,18
+Balances,GRPO,40,20
+Balances,Memory,40,10
+Balances,Static,40,8
+Temple,EvoTest,40,19
+Temple,EvoPrompt,40,11
+Temple,Reflexion,40,14
+Temple,GRPO,40,7
+Temple,Memory,40,7
+Temple,Static,40,4
+Detective,EvoTest,41,340
+Detective,EvoPrompt,41,290
+Detective,Reflexion,41,110
+Detective,GRPO,41,60
+Detective,Memory,41,120
+Detective,Static,41,20
+Library,EvoTest,41,26
+Library,EvoPrompt,41,20
+Library,Reflexion,41,15
+Library,GRPO,41,11
+Library,Memory,41,13
+Library,Static,41,10
+Zork1,EvoTest,41,54
+Zork1,EvoPrompt,41,45
+Zork1,Reflexion,41,35
+Zork1,GRPO,41,0
+Zork1,Memory,41,25
+Zork1,Static,41,0
+Zork3,EvoTest,41,3
+Zork3,EvoPrompt,41,2
+Zork3,Reflexion,41,2
+Zork3,GRPO,41,0
+Zork3,Memory,41,1
+Zork3,Static,41,0
+Balances,EvoTest,41,23
+Balances,EvoPrompt,41,16
+Balances,Reflexion,41,20
+Balances,GRPO,41,13
+Balances,Memory,41,10
+Balances,Static,41,8
+Temple,EvoTest,41,14
+Temple,EvoPrompt,41,9
+Temple,Reflexion,41,11
+Temple,GRPO,41,4
+Temple,Memory,41,7
+Temple,Static,41,4
+Detective,EvoTest,42,340
+Detective,EvoPrompt,42,260
+Detective,Reflexion,42,210
+Detective,GRPO,42,120
+Detective,Memory,42,130
+Detective,Static,42,40
+Library,EvoTest,42,26
+Library,EvoPrompt,42,20
+Library,Reflexion,42,16
+Library,GRPO,42,12
+Library,Memory,42,14
+Library,Static,42,10
+Zork1,EvoTest,42,50
+Zork1,EvoPrompt,42,40
+Zork1,Reflexion,42,25
+Zork1,GRPO,42,10
+Zork1,Memory,42,25
+Zork1,Static,42,10
+Zork3,EvoTest,42,3
+Zork3,EvoPrompt,42,1
+Zork3,Reflexion,42,1
+Zork3,GRPO,42,2
+Zork3,Memory,42,1
+Zork3,Static,42,0
+Balances,EvoTest,42,23
+Balances,EvoPrompt,42,10
+Balances,Reflexion,42,13
+Balances,GRPO,42,18
+Balances,Memory,42,10
+Balances,Static,42,8
+Temple,EvoTest,42,14
+Temple,EvoPrompt,42,7
+Temple,Reflexion,42,9
+Temple,GRPO,42,11
+Temple,Memory,42,7
+Temple,Static,42,4
+Detective,EvoTest,43,340
+Detective,EvoPrompt,43,310
+Detective,Reflexion,43,50
+Detective,GRPO,43,160
+Detective,Memory,43,140
+Detective,Static,43,20
+Library,EvoTest,43,26
+Library,EvoPrompt,43,21
+Library,Reflexion,43,16
+Library,GRPO,43,15
+Library,Memory,43,14
+Library,Static,43,10
+Zork1,EvoTest,43,54
+Zork1,EvoPrompt,43,35
+Zork1,Reflexion,43,20
+Zork1,GRPO,43,25
+Zork1,Memory,43,25
+Zork1,Static,43,10
+Zork3,EvoTest,43,3
+Zork3,EvoPrompt,43,2
+Zork3,Reflexion,43,1
+Zork3,GRPO,43,0
+Zork3,Memory,43,1
+Zork3,Static,43,1
+Balances,EvoTest,43,23
+Balances,EvoPrompt,43,13
+Balances,Reflexion,43,18
+Balances,GRPO,43,8
+Balances,Memory,43,10
+Balances,Static,43,8
+Temple,EvoTest,43,19
+Temple,EvoPrompt,43,11
+Temple,Reflexion,43,14
+Temple,GRPO,43,4
+Temple,Memory,43,7
+Temple,Static,43,4
+Detective,EvoTest,44,340
+Detective,EvoPrompt,44,290
+Detective,Reflexion,44,200
+Detective,GRPO,44,90
+Detective,Memory,44,90
+Detective,Static,44,20
+Library,EvoTest,44,26
+Library,EvoPrompt,44,20
+Library,Reflexion,44,17
+Library,GRPO,44,14
+Library,Memory,44,13
+Library,Static,44,10
+Zork1,EvoTest,44,50
+Zork1,EvoPrompt,44,35
+Zork1,Reflexion,44,15
+Zork1,GRPO,44,0
+Zork1,Memory,44,25
+Zork1,Static,44,0
+Zork3,EvoTest,44,4
+Zork3,EvoPrompt,44,2
+Zork3,Reflexion,44,2
+Zork3,GRPO,44,1
+Zork3,Memory,44,1
+Zork3,Static,44,0
+Balances,EvoTest,44,8
+Balances,EvoPrompt,44,16
+Balances,Reflexion,44,16
+Balances,GRPO,44,23
+Balances,Memory,44,10
+Balances,Static,44,8
+Temple,EvoTest,44,14
+Temple,EvoPrompt,44,9
+Temple,Reflexion,44,11
+Temple,GRPO,44,9
+Temple,Memory,44,7
+Temple,Static,44,4
+Detective,EvoTest,45,330
+Detective,EvoPrompt,45,300
+Detective,Reflexion,45,200
+Detective,GRPO,45,70
+Detective,Memory,45,110
+Detective,Static,45,20
+Library,EvoTest,45,26
+Library,EvoPrompt,45,22
+Library,Reflexion,45,18
+Library,GRPO,45,10
+Library,Memory,45,14
+Library,Static,45,10
+Zork1,EvoTest,45,54
+Zork1,EvoPrompt,45,40
+Zork1,Reflexion,45,15
+Zork1,GRPO,45,0
+Zork1,Memory,45,25
+Zork1,Static,45,10
+Zork3,EvoTest,45,3
+Zork3,EvoPrompt,45,3
+Zork3,Reflexion,45,1
+Zork3,GRPO,45,1
+Zork3,Memory,45,1
+Zork3,Static,45,0
+Balances,EvoTest,45,23
+Balances,EvoPrompt,45,8
+Balances,Reflexion,45,13
+Balances,GRPO,45,8
+Balances,Memory,45,10
+Balances,Static,45,8
+Temple,EvoTest,45,19
+Temple,EvoPrompt,45,7
+Temple,Reflexion,45,14
+Temple,GRPO,45,4
+Temple,Memory,45,7
+Temple,Static,45,4
+Detective,EvoTest,46,340
+Detective,EvoPrompt,46,310
+Detective,Reflexion,46,200
+Detective,GRPO,46,150
+Detective,Memory,46,130
+Detective,Static,46,20
+Library,EvoTest,46,26
+Library,EvoPrompt,46,21
+Library,Reflexion,46,18
+Library,GRPO,46,11
+Library,Memory,46,14
+Library,Static,46,10
+Zork1,EvoTest,46,54
+Zork1,EvoPrompt,46,45
+Zork1,Reflexion,46,20
+Zork1,GRPO,46,10
+Zork1,Memory,46,25
+Zork1,Static,46,10
+Zork3,EvoTest,46,3
+Zork3,EvoPrompt,46,2
+Zork3,Reflexion,46,2
+Zork3,GRPO,46,2
+Zork3,Memory,46,1
+Zork3,Static,46,0
+Balances,EvoTest,46,23
+Balances,EvoPrompt,46,13
+Balances,Reflexion,46,16
+Balances,GRPO,46,16
+Balances,Memory,46,10
+Balances,Static,46,8
+Temple,EvoTest,46,19
+Temple,EvoPrompt,46,11
+Temple,Reflexion,46,11
+Temple,GRPO,46,7
+Temple,Memory,46,7
+Temple,Static,46,4
+Detective,EvoTest,47,330
+Detective,EvoPrompt,47,240
+Detective,Reflexion,47,200
+Detective,GRPO,47,160
+Detective,Memory,47,120
+Detective,Static,47,20
+Library,EvoTest,47,26
+Library,EvoPrompt,47,22
+Library,Reflexion,47,18
+Library,GRPO,47,14
+Library,Memory,47,14
+Library,Static,47,10
+Zork1,EvoTest,47,50
+Zork1,EvoPrompt,47,35
+Zork1,Reflexion,47,25
+Zork1,GRPO,47,30
+Zork1,Memory,47,25
+Zork1,Static,47,15
+Zork3,EvoTest,47,4
+Zork3,EvoPrompt,47,1
+Zork3,Reflexion,47,1
+Zork3,GRPO,47,0
+Zork3,Memory,47,1
+Zork3,Static,47,0
+Balances,EvoTest,47,28
+Balances,EvoPrompt,47,8
+Balances,Reflexion,47,20
+Balances,GRPO,47,10
+Balances,Memory,47,10
+Balances,Static,47,8
+Temple,EvoTest,47,19
+Temple,EvoPrompt,47,9
+Temple,Reflexion,47,9
+Temple,GRPO,47,4
+Temple,Memory,47,7
+Temple,Static,47,4
+Detective,EvoTest,48,340
+Detective,EvoPrompt,48,300
+Detective,Reflexion,48,200
+Detective,GRPO,48,100
+Detective,Memory,48,80
+Detective,Static,48,20
+Library,EvoTest,48,26
+Library,EvoPrompt,48,21
+Library,Reflexion,48,18
+Library,GRPO,48,12
+Library,Memory,48,13
+Library,Static,48,10
+Zork1,EvoTest,48,54
+Zork1,EvoPrompt,48,40
+Zork1,Reflexion,48,35
+Zork1,GRPO,48,10
+Zork1,Memory,48,25
+Zork1,Static,48,0
+Zork3,EvoTest,48,4
+Zork3,EvoPrompt,48,2
+Zork3,Reflexion,48,1
+Zork3,GRPO,48,1
+Zork3,Memory,48,1
+Zork3,Static,48,1
+Balances,EvoTest,48,28
+Balances,EvoPrompt,48,3
+Balances,Reflexion,48,16
+Balances,GRPO,48,20
+Balances,Memory,48,10
+Balances,Static,48,8
+Temple,EvoTest,48,24
+Temple,EvoPrompt,48,7
+Temple,Reflexion,48,14
+Temple,GRPO,48,11
+Temple,Memory,48,7
+Temple,Static,48,4
+Detective,EvoTest,49,340
+Detective,EvoPrompt,49,310
+Detective,Reflexion,49,220
+Detective,GRPO,49,160
+Detective,Memory,49,140
+Detective,Static,49,20
+Library,EvoTest,49,26
+Library,EvoPrompt,49,20
+Library,Reflexion,49,17
+Library,GRPO,49,11
+Library,Memory,49,14
+Library,Static,49,10
+Zork1,EvoTest,49,54
+Zork1,EvoPrompt,49,40
+Zork1,Reflexion,49,35
+Zork1,GRPO,49,15
+Zork1,Memory,49,25
+Zork1,Static,49,0
+Zork3,EvoTest,49,4
+Zork3,EvoPrompt,49,2
+Zork3,Reflexion,49,2
+Zork3,GRPO,49,1
+Zork3,Memory,49,1
+Zork3,Static,49,0
+Balances,EvoTest,49,28
+Balances,EvoPrompt,49,13
+Balances,Reflexion,49,13
+Balances,GRPO,49,13
+Balances,Memory,49,10
+Balances,Static,49,8
+Temple,EvoTest,49,19
+Temple,EvoPrompt,49,11
+Temple,Reflexion,49,11
+Temple,GRPO,49,4
+Temple,Memory,49,7
+Temple,Static,49,4
+Detective,EvoTest,50,340
+Detective,EvoPrompt,50,300
+Detective,Reflexion,50,230
+Detective,GRPO,50,160
+Detective,Memory,50,200
+Detective,Static,50,20
+Library,EvoTest,50,26
+Library,EvoPrompt,50,22
+Library,Reflexion,50,18
+Library,GRPO,50,11
+Library,Memory,50,14
+Library,Static,50,10
+Zork1,EvoTest,50,54
+Zork1,EvoPrompt,50,45
+Zork1,Reflexion,50,35
+Zork1,GRPO,50,10
+Zork1,Memory,50,25
+Zork1,Static,50,10
+Zork3,EvoTest,50,4
+Zork3,EvoPrompt,50,2
+Zork3,Reflexion,50,1
+Zork3,GRPO,50,2
+Zork3,Memory,50,1
+Zork3,Static,50,0
+Balances,EvoTest,50,28
+Balances,EvoPrompt,50,13
+Balances,Reflexion,50,18
+Balances,GRPO,50,18
+Balances,Memory,50,10
+Balances,Static,50,8
+Temple,EvoTest,50,24
+Temple,EvoPrompt,50,9
+Temple,Reflexion,50,14
+Temple,GRPO,50,9
+Temple,Memory,50,7
+Temple,Static,50,4
+Detective,DeepSeek-Pro (full),1,100
+Detective,DeepSeek-Pro (full),2,130
+Detective,DeepSeek-Pro (full),3,200
+Detective,DeepSeek-Pro (full),4,320
+Detective,DeepSeek-Pro (full),5,220
+Detective,DeepSeek-Pro (full),6,140
+Detective,DeepSeek-Pro (full),7,150
+Detective,DeepSeek-Pro (full),8,250
+Detective,DeepSeek-Pro (full),9,350
+Detective,DeepSeek-Pro (full),10,350
+Library,DeepSeek-Pro (full),1,28
+Library,DeepSeek-Pro (full),2,30
+Library,DeepSeek-Pro (full),3,30
+Library,DeepSeek-Pro (full),4,30
+Library,DeepSeek-Pro (full),5,30
+Library,DeepSeek-Pro (full),6,30
+Library,DeepSeek-Pro (full),7,30
+Library,DeepSeek-Pro (full),8,30
+Library,DeepSeek-Pro (full),9,30
+Library,DeepSeek-Pro (full),10,30
+Zork1,DeepSeek-Pro (full),1,55
+Zork1,DeepSeek-Pro (full),2,30
+Zork1,DeepSeek-Pro (full),3,0
+Zork1,DeepSeek-Pro (full),4,59
+Zork1,DeepSeek-Pro (full),5,40
+Zork1,DeepSeek-Pro (full),6,44
+Zork1,DeepSeek-Pro (full),7,5
+Zork1,DeepSeek-Pro (full),8,34
+Zork1,DeepSeek-Pro (full),9,44
+Zork1,DeepSeek-Pro (full),10,44
+Zork3,DeepSeek-Pro (full),1,3
+Zork3,DeepSeek-Pro (full),2,3
+Zork3,DeepSeek-Pro (full),3,4
+Zork3,DeepSeek-Pro (full),4,4
+Zork3,DeepSeek-Pro (full),5,4
+Zork3,DeepSeek-Pro (full),6,4
+Zork3,DeepSeek-Pro (full),7,4
+Zork3,DeepSeek-Pro (full),8,2
+Zork3,DeepSeek-Pro (full),9,5
+Zork3,DeepSeek-Pro (full),10,5
+Balances,DeepSeek-Pro (full),1,10
+Balances,DeepSeek-Pro (full),2,20
+Balances,DeepSeek-Pro (full),3,20
+Balances,DeepSeek-Pro (full),4,20
+Balances,DeepSeek-Pro (full),5,20
+Balances,DeepSeek-Pro (full),6,20
+Balances,DeepSeek-Pro (full),7,20
+Balances,DeepSeek-Pro (full),8,20
+Balances,DeepSeek-Pro (full),9,25
+Balances,DeepSeek-Pro (full),10,30
+Temple,DeepSeek-Pro (full),1,15
+Temple,DeepSeek-Pro (full),2,15
+Temple,DeepSeek-Pro (full),3,15
+Temple,DeepSeek-Pro (full),4,15
+Temple,DeepSeek-Pro (full),5,15
+Temple,DeepSeek-Pro (full),6,15
+Temple,DeepSeek-Pro (full),7,15
+Temple,DeepSeek-Pro (full),8,15
+Temple,DeepSeek-Pro (full),9,15
+Temple,DeepSeek-Pro (full),10,15
+Deephome,DeepSeek-Pro (full),1,1
+Deephome,DeepSeek-Pro (full),2,26
+Deephome,DeepSeek-Pro (full),3,28
+Deephome,DeepSeek-Pro (full),4,69
+Deephome,DeepSeek-Pro (full),5,69
+Deephome,DeepSeek-Pro (full),6,76
+Deephome,DeepSeek-Pro (full),7,76
+Deephome,DeepSeek-Pro (full),8,77
+Deephome,DeepSeek-Pro (full),9,78
+Deephome,DeepSeek-Pro (full),10,77
+Murdac,DeepSeek-Pro (full),1,10
+Murdac,DeepSeek-Pro (full),2,15
+Murdac,DeepSeek-Pro (full),3,0
+Murdac,DeepSeek-Pro (full),4,23
+Murdac,DeepSeek-Pro (full),5,18
+Murdac,DeepSeek-Pro (full),6,15
+Murdac,DeepSeek-Pro (full),7,15
+Murdac,DeepSeek-Pro (full),8,15
+Murdac,DeepSeek-Pro (full),9,15
+Murdac,DeepSeek-Pro (full),10,25
+Advent,DeepSeek-Pro (full),1,0
+Advent,DeepSeek-Pro (full),2,0
+Advent,DeepSeek-Pro (full),3,14
+Advent,DeepSeek-Pro (full),4,0
+Advent,DeepSeek-Pro (full),5,14
+Advent,DeepSeek-Pro (full),6,0
+Advent,DeepSeek-Pro (full),7,28
+Advent,DeepSeek-Pro (full),8,0
+Advent,DeepSeek-Pro (full),9,0
+Advent,DeepSeek-Pro (full),10,0
+Detective,GLM-4.7 (full),1,20
+Detective,GLM-4.7 (full),2,200
+Detective,GLM-4.7 (full),3,210
+Detective,GLM-4.7 (full),4,10
+Detective,GLM-4.7 (full),5,330
+Detective,GLM-4.7 (full),6,90
+Detective,GLM-4.7 (full),7,20
+Detective,GLM-4.7 (full),8,90
+Detective,GLM-4.7 (full),9,310
+Detective,GLM-4.7 (full),10,320
+Library,GLM-4.7 (full),1,21
+Library,GLM-4.7 (full),2,21
+Library,GLM-4.7 (full),3,21
+Library,GLM-4.7 (full),4,21
+Library,GLM-4.7 (full),5,21
+Library,GLM-4.7 (full),6,21
+Library,GLM-4.7 (full),7,21
+Library,GLM-4.7 (full),8,21
+Library,GLM-4.7 (full),9,21
+Library,GLM-4.7 (full),10,21
+Zork1,GLM-4.7 (full),1,55
+Zork1,GLM-4.7 (full),2,55
+Zork1,GLM-4.7 (full),3,49
+Zork1,GLM-4.7 (full),4,45
+Zork1,GLM-4.7 (full),5,50
+Zork1,GLM-4.7 (full),6,55
+Zork1,GLM-4.7 (full),7,34
+Zork1,GLM-4.7 (full),8,55
+Zork1,GLM-4.7 (full),9,55
+Zork1,GLM-4.7 (full),10,59
+Zork3,GLM-4.7 (full),1,3
+Zork3,GLM-4.7 (full),2,1
+Zork3,GLM-4.7 (full),3,4
+Zork3,GLM-4.7 (full),4,4
+Zork3,GLM-4.7 (full),5,3
+Zork3,GLM-4.7 (full),6,3
+Zork3,GLM-4.7 (full),7,5
+Zork3,GLM-4.7 (full),8,3
+Zork3,GLM-4.7 (full),9,4
+Zork3,GLM-4.7 (full),10,5
+Balances,GLM-4.7 (full),1,10
+Balances,GLM-4.7 (full),2,15
+Balances,GLM-4.7 (full),3,15
+Balances,GLM-4.7 (full),4,15
+Balances,GLM-4.7 (full),5,20
+Balances,GLM-4.7 (full),6,20
+Balances,GLM-4.7 (full),7,20
+Balances,GLM-4.7 (full),8,20
+Balances,GLM-4.7 (full),9,20
+Balances,GLM-4.7 (full),10,20
+Temple,GLM-4.7 (full),1,8
+Temple,GLM-4.7 (full),2,8
+Temple,GLM-4.7 (full),3,13
+Temple,GLM-4.7 (full),4,13
+Temple,GLM-4.7 (full),5,13
+Temple,GLM-4.7 (full),6,13
+Temple,GLM-4.7 (full),7,13
+Temple,GLM-4.7 (full),8,13
+Temple,GLM-4.7 (full),9,13
+Temple,GLM-4.7 (full),10,13
+Deephome,GLM-4.7 (full),1,1
+Deephome,GLM-4.7 (full),2,24
+Deephome,GLM-4.7 (full),3,25
+Deephome,GLM-4.7 (full),4,26
+Deephome,GLM-4.7 (full),5,24
+Deephome,GLM-4.7 (full),6,39
+Deephome,GLM-4.7 (full),7,68
+Deephome,GLM-4.7 (full),8,76
+Deephome,GLM-4.7 (full),9,70
+Deephome,GLM-4.7 (full),10,73
+Murdac,GLM-4.7 (full),1,16
+Murdac,GLM-4.7 (full),2,9
+Murdac,GLM-4.7 (full),3,29
+Murdac,GLM-4.7 (full),4,0
+Murdac,GLM-4.7 (full),5,10
+Murdac,GLM-4.7 (full),6,9
+Murdac,GLM-4.7 (full),7,0
+Murdac,GLM-4.7 (full),8,0
+Murdac,GLM-4.7 (full),9,14
+Murdac,GLM-4.7 (full),10,10
+Advent,GLM-4.7 (full),1,7
+Advent,GLM-4.7 (full),2,0
+Advent,GLM-4.7 (full),3,0
+Advent,GLM-4.7 (full),4,0
+Advent,GLM-4.7 (full),5,21
+Advent,GLM-4.7 (full),6,0
+Advent,GLM-4.7 (full),7,28
+Advent,GLM-4.7 (full),8,0
+Advent,GLM-4.7 (full),9,0
+Advent,GLM-4.7 (full),10,0
+Detective,GLM-4.7 (no_wiki),1,30
+Detective,GLM-4.7 (no_wiki),2,120
+Detective,GLM-4.7 (no_wiki),3,20
+Detective,GLM-4.7 (no_wiki),4,20
+Detective,GLM-4.7 (no_wiki),5,130
+Detective,GLM-4.7 (no_wiki),6,30
+Detective,GLM-4.7 (no_wiki),7,90
+Detective,GLM-4.7 (no_wiki),8,110
+Detective,GLM-4.7 (no_wiki),9,120
+Detective,GLM-4.7 (no_wiki),10,20
+Library,GLM-4.7 (no_wiki),1,20
+Library,GLM-4.7 (no_wiki),2,21
+Library,GLM-4.7 (no_wiki),3,21
+Library,GLM-4.7 (no_wiki),4,20
+Library,GLM-4.7 (no_wiki),5,20
+Library,GLM-4.7 (no_wiki),6,21
+Library,GLM-4.7 (no_wiki),7,29
+Library,GLM-4.7 (no_wiki),8,21
+Library,GLM-4.7 (no_wiki),9,19
+Library,GLM-4.7 (no_wiki),10,13
+Zork1,GLM-4.7 (no_wiki),1,35
+Zork1,GLM-4.7 (no_wiki),2,29
+Zork1,GLM-4.7 (no_wiki),3,50
+Zork1,GLM-4.7 (no_wiki),4,45
+Zork1,GLM-4.7 (no_wiki),5,30
+Zork1,GLM-4.7 (no_wiki),6,55
+Zork1,GLM-4.7 (no_wiki),7,59
+Zork1,GLM-4.7 (no_wiki),8,25
+Zork1,GLM-4.7 (no_wiki),9,55
+Zork1,GLM-4.7 (no_wiki),10,55
+Zork3,GLM-4.7 (no_wiki),1,3
+Zork3,GLM-4.7 (no_wiki),2,3
+Zork3,GLM-4.7 (no_wiki),3,1
+Zork3,GLM-4.7 (no_wiki),4,0
+Zork3,GLM-4.7 (no_wiki),5,2
+Zork3,GLM-4.7 (no_wiki),6,1
+Zork3,GLM-4.7 (no_wiki),7,4
+Zork3,GLM-4.7 (no_wiki),8,1
+Zork3,GLM-4.7 (no_wiki),9,3
+Zork3,GLM-4.7 (no_wiki),10,2
+Balances,GLM-4.7 (no_wiki),1,15
+Balances,GLM-4.7 (no_wiki),2,10
+Balances,GLM-4.7 (no_wiki),3,15
+Balances,GLM-4.7 (no_wiki),4,15
+Balances,GLM-4.7 (no_wiki),5,15
+Balances,GLM-4.7 (no_wiki),6,15
+Balances,GLM-4.7 (no_wiki),7,10
+Balances,GLM-4.7 (no_wiki),8,15
+Balances,GLM-4.7 (no_wiki),9,10
+Balances,GLM-4.7 (no_wiki),10,15
+Temple,GLM-4.7 (no_wiki),1,20
+Temple,GLM-4.7 (no_wiki),2,10
+Temple,GLM-4.7 (no_wiki),3,15
+Temple,GLM-4.7 (no_wiki),4,22
+Temple,GLM-4.7 (no_wiki),5,12
+Temple,GLM-4.7 (no_wiki),6,10
+Temple,GLM-4.7 (no_wiki),7,15
+Temple,GLM-4.7 (no_wiki),8,20
+Temple,GLM-4.7 (no_wiki),9,15
+Temple,GLM-4.7 (no_wiki),10,12
+Deephome,GLM-4.7 (no_wiki),1,27
+Deephome,GLM-4.7 (no_wiki),2,1
+Deephome,GLM-4.7 (no_wiki),3,1
+Deephome,GLM-4.7 (no_wiki),4,1
+Deephome,GLM-4.7 (no_wiki),5,25
+Deephome,GLM-4.7 (no_wiki),6,1
+Deephome,GLM-4.7 (no_wiki),7,15
+Deephome,GLM-4.7 (no_wiki),8,1
+Deephome,GLM-4.7 (no_wiki),9,28
+Deephome,GLM-4.7 (no_wiki),10,66
+Murdac,GLM-4.7 (no_wiki),1,0
+Murdac,GLM-4.7 (no_wiki),2,0
+Murdac,GLM-4.7 (no_wiki),3,0
+Murdac,GLM-4.7 (no_wiki),4,0
+Murdac,GLM-4.7 (no_wiki),5,0
+Murdac,GLM-4.7 (no_wiki),6,14
+Murdac,GLM-4.7 (no_wiki),7,0
+Murdac,GLM-4.7 (no_wiki),8,0
+Murdac,GLM-4.7 (no_wiki),9,0
+Murdac,GLM-4.7 (no_wiki),10,0
+Advent,GLM-4.7 (no_wiki),1,21
+Advent,GLM-4.7 (no_wiki),2,0
+Advent,GLM-4.7 (no_wiki),3,0
+Advent,GLM-4.7 (no_wiki),4,0
+Advent,GLM-4.7 (no_wiki),5,0
+Advent,GLM-4.7 (no_wiki),6,7
+Advent,GLM-4.7 (no_wiki),7,0
+Advent,GLM-4.7 (no_wiki),8,0
+Advent,GLM-4.7 (no_wiki),9,0
+Advent,GLM-4.7 (no_wiki),10,0
+Detective,Gemini-2.5-flash (full),1,80
+Detective,Gemini-2.5-flash (full),2,70
+Detective,Gemini-2.5-flash (full),3,100
+Detective,Gemini-2.5-flash (full),4,120
+Detective,Gemini-2.5-flash (full),5,140
+Detective,Gemini-2.5-flash (full),6,320
+Detective,Gemini-2.5-flash (full),7,220
+Detective,Gemini-2.5-flash (full),8,210
+Detective,Gemini-2.5-flash (full),9,330
+Detective,Gemini-2.5-flash (full),10,220
+Library,Gemini-2.5-flash (full),1,10
+Library,Gemini-2.5-flash (full),2,10
+Library,Gemini-2.5-flash (full),3,11
+Library,Gemini-2.5-flash (full),4,11
+Library,Gemini-2.5-flash (full),5,14
+Library,Gemini-2.5-flash (full),6,19
+Library,Gemini-2.5-flash (full),7,28
+Library,Gemini-2.5-flash (full),8,30
+Library,Gemini-2.5-flash (full),9,30
+Library,Gemini-2.5-flash (full),10,30
+Zork1,Gemini-2.5-flash (full),1,34
+Zork1,Gemini-2.5-flash (full),2,45
+Zork1,Gemini-2.5-flash (full),3,30
+Zork1,Gemini-2.5-flash (full),4,59
+Zork1,Gemini-2.5-flash (full),5,30
+Zork1,Gemini-2.5-flash (full),6,29
+Zork1,Gemini-2.5-flash (full),7,30
+Zork1,Gemini-2.5-flash (full),8,34
+Zork1,Gemini-2.5-flash (full),9,45
+Zork1,Gemini-2.5-flash (full),10,29
+Zork3,Gemini-2.5-flash (full),1,3
+Zork3,Gemini-2.5-flash (full),2,0
+Zork3,Gemini-2.5-flash (full),3,5
+Zork3,Gemini-2.5-flash (full),4,2
+Zork3,Gemini-2.5-flash (full),5,2
+Zork3,Gemini-2.5-flash (full),6,3
+Zork3,Gemini-2.5-flash (full),7,3
+Zork3,Gemini-2.5-flash (full),8,2
+Zork3,Gemini-2.5-flash (full),9,3
+Zork3,Gemini-2.5-flash (full),10,2
+Balances,Gemini-2.5-flash (full),1,15
+Balances,Gemini-2.5-flash (full),2,15
+Balances,Gemini-2.5-flash (full),3,15
+Balances,Gemini-2.5-flash (full),4,10
+Balances,Gemini-2.5-flash (full),5,15
+Balances,Gemini-2.5-flash (full),6,15
+Balances,Gemini-2.5-flash (full),7,15
+Balances,Gemini-2.5-flash (full),8,15
+Balances,Gemini-2.5-flash (full),9,15
+Balances,Gemini-2.5-flash (full),10,15
+Temple,Gemini-2.5-flash (full),1,5
+Temple,Gemini-2.5-flash (full),2,5
+Temple,Gemini-2.5-flash (full),3,10
+Temple,Gemini-2.5-flash (full),4,5
+Temple,Gemini-2.5-flash (full),5,10
+Temple,Gemini-2.5-flash (full),6,12
+Temple,Gemini-2.5-flash (full),7,10
+Temple,Gemini-2.5-flash (full),8,15
+Temple,Gemini-2.5-flash (full),9,15
+Temple,Gemini-2.5-flash (full),10,10

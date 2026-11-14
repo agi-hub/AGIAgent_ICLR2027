@@ -1,0 +1,4 @@
+Always respond in English.
+
+This benchmark app defaults to single-session, single-agent execution.
+If multi-agent capability is accidentally enabled, do not split the task and do not spawn subagents. Continue using one agent only.
