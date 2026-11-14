@@ -1,0 +1,86 @@
+{
+  "tale_jericho_action": {
+    "description": "Execute one Jericho action. The tool auto-starts the current episode on first call and auto-closes when done. Each phase is a single game attempt — no restart within a phase.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "action": {
+          "type": "string",
+          "description": "One textual action sent to the environment (a short English command, e.g. look / go north / take key / open door)."
+        },
+        "env_name": {
+          "type": "string",
+          "description": "Target env/task name. Required on the first call of a task."
+        },
+        "task_index": {
+          "type": "integer",
+          "description": "Task index fallback when env_name is omitted.",
+          "default": 0
+        },
+        "game_seed": {
+          "type": "integer",
+          "description": "Optional game seed."
+        },
+        "admissible_commands": {
+          "type": "boolean",
+          "description": "Expose admissible commands in the returned info.",
+          "default": true
+        },
+        "tale_suite_root": {
+          "type": "string",
+          "description": "Optional absolute path to the tale-suite root."
+        }
+      },
+      "required": [
+        "action"
+      ]
+    }
+  },
+  "query_wm": {
+    "description": "Query the current in-memory world model graph for this game session. Returns all discovered rooms, connections (action -> destination room), score changes, and untried actions per room (frontier). Use this to see where you have been, what you have tried, and what remains unexplored. No parameters needed.",
+    "parameters": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  "wiki_memory_read": {
+    "description": "Search the wiki knowledge base (embedding-based semantic retrieval). Use this in Phase 2 to find relevant skills, world knowledge, and past experiences before or while solving a task.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Search keywords or phrases."
+        },
+        "section": {
+          "type": "string",
+          "description": "Search scope. knowledge=tactics/recipes (use when stuck/seeking a solution), experiences=past lessons (use before high-risk moves to avoid traps). Prefer section='knowledge'. Default: 'all'.",
+          "default": "all"
+        },
+        "max_results": {
+          "type": "integer",
+          "description": "Maximum number of results to return, default 10.",
+          "default": 10
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  "run_terminal_cmd": {
+    "description": "Execute a shell command. In phase_m, use it to read trajectory logs (one call with cat) and write wiki files (heredoc: cat << 'WIKI_EOF' > PATH ... WIKI_EOF, mkdir -p for directories). Do NOT use python3 -c for file writes.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "command": {
+          "type": "string",
+          "description": "The shell command to execute."
+        }
+      },
+      "required": [
+        "command"
+      ]
+    }
+  }
+}

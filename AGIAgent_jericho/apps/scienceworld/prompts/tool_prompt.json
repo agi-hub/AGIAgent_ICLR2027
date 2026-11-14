@@ -1,0 +1,102 @@
+{
+  "scienceworld_action": {
+    "description": "Execute one native ScienceWorld action. On the first call, this starts the current task variation automatically. Each phase is a single game attempt — no restart within a phase.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "action": {
+          "type": "string",
+          "description": "One textual action sent to the environment, for example `look around`, `open fridge`, or `mix beaker 1 with beaker 2`."
+        },
+        "env_name": {
+          "type": "string",
+          "description": "Target ScienceWorld task name. Required on the first call of a task."
+        },
+        "variation_num": {
+          "type": "integer",
+          "description": "Target variation number for the current task. Required on the first call of a task.",
+          "default": 0
+        },
+        "task_index": {
+          "type": "integer",
+          "description": "Fallback task index used when `env_name` is omitted.",
+          "default": 0
+        },
+        "simplification_str": {
+          "type": "string",
+          "description": "Optional ScienceWorld simplification string.",
+          "default": ""
+        },
+        "env_step_limit": {
+          "type": "integer",
+          "description": "Maximum step limit for the episode.",
+          "default": 100
+        },
+        "generate_gold_path": {
+          "type": "boolean",
+          "description": "Whether to request a gold-path explanation from the runtime when supported.",
+          "default": false
+        },
+        "server_path": {
+          "type": "string",
+          "description": "Optional absolute path to the ScienceWorld server/JAR runtime."
+        }
+      },
+      "required": [
+        "action"
+      ]
+    }
+  },
+  "query_wm": {
+    "description": "Query the current in-memory world model graph for this task session. Returns all discovered rooms, connections (action -> destination room), score changes, and untried actions per room (frontier). Use this to see where you have been, what you have tried, and what remains unexplored. No parameters needed.",
+    "parameters": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  "wiki_memory_read": {
+    "description": "Search the wiki knowledge base using grep (literal string matching). Use this in Phase 2 to find relevant skills, world knowledge, and past experiences before or while solving a task.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Search string. Matched case-insensitively across all wiki .md files. Try keywords from the current observation, task goal, or objects you need to find."
+        },
+        "section": {
+          "type": "string",
+          "description": "Which wiki section to search: 'knowledge' (skills/tactics), 'experiences' (past lessons), 'world_model' (all locations+objects), 'locations' (rooms), 'objects' (items), or 'all' (default).",
+          "default": "all"
+        },
+        "max_results": {
+          "type": "integer",
+          "description": "Maximum number of matching pages to return.",
+          "default": 20
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  "run_terminal_cmd": {
+    "description": "Execute a shell command. Use this in phase_m to read trajectory logs (head/tail/cat) and write wiki files (python3 -c for multi-line writes, mkdir for directories). Also useful for general file system operations.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "command": {
+          "type": "string",
+          "description": "The shell command to execute."
+        },
+        "is_background": {
+          "type": "boolean",
+          "description": "Whether to run the command in the background.",
+          "default": false
+        }
+      },
+      "required": [
+        "command"
+      ]
+    }
+  }
+}

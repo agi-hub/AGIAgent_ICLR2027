@@ -1,0 +1,61 @@
+# Language setting
+LANG=en
+
+# Gemini 2.5 Flash API configuration
+api_key=your_key_here
+api_base=https://xinchenbuqi3776.zeabur.app/v1
+model=gemini-2.5-flash
+max_tokens=32768
+
+# Streaming
+streaming=False
+
+# Long-term memory
+enable_long_term_memory=False
+
+# Embedding
+embedding_model=BAAI/bge-m3
+embedding_model_api_key=your_key_here
+embedding_model_api_base=https://api.siliconflow.cn/v1
+
+# Tool calling
+Tool_calling_format=False
+tool_call_parse_format=json
+enable_thinking=False
+
+# Truncation
+truncation_length=100000
+web_content_truncation_length=20000
+
+# Search
+simplified_search_output=True
+
+# History compression
+summary_trigger_length=100000
+compression_target_length=50000
+compression_strategy=llm_summary
+keep_recent_rounds=0
+summary_streaming=True
+
+# Reports
+summary_report=False
+web_search_summary=False
+
+# GUI
+gui_default_data_directory=data
+auto_fix_interactive_commands=True
+
+# Multi-agent
+multi_agent=False
+enable_round_sync=True
+sync_round=5
+
+# Misc
+enable_jieba=True
+emoji_disabled=False
+auto_convert_to_word=True
+auto_convert_to_pdf=True
+auto_convert_to_latex=False
+admit_task_completed_with_tools=True
+GUI_virtual_terminal=False
+GUI_show_infinite_execute_button=True

@@ -1,0 +1,45 @@
+# Temporary config for deepseek-v4-pro ablation (abl8_pro)
+# Copy of apps/tale_jericho/config.txt with model switched to deepseek-v4-pro
+
+# DeepSeek pro
+api_key=your_key_here
+api_base=https://api.deepseek.com/anthropic
+model=deepseek-v4-pro
+max_tokens=32768
+
+streaming=True
+enable_long_term_memory=False
+
+mem_model=gpt-4.1
+mem_model_api_key=your key
+mem_model_api_base=https://api.openai-proxy.org/v1
+
+embedding_model=BAAI/bge-m3
+embedding_model_api_key=your_key_here
+embedding_model_api_base=https://api.siliconflow.cn/v1
+
+Tool_calling_format=False
+tool_call_parse_format=xml
+enable_thinking=True
+truncation_length=100000
+web_content_truncation_length=20000
+summary_trigger_length=100000
+compression_target_length=50000
+compression_strategy=llm_summary
+keep_recent_rounds=0
+summary_streaming=True
+summary_report=False
+web_search_summary=False
+gui_default_data_directory=data
+auto_fix_interactive_commands=True
+multi_agent=False
+enable_round_sync=True
+sync_round=5
+enable_jieba=True
+emoji_disabled=False
+auto_convert_to_word=True
+auto_convert_to_pdf=True
+auto_convert_to_latex=False
+admit_task_completed_with_tools=True
+GUI_virtual_terminal=False
+GUI_show_infinite_execute_button=True

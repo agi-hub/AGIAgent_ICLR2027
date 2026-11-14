@@ -1,0 +1,122 @@
+# graph_skill 提示词配置
+# 必填字段：
+#   - init_system_prompt
+#   - init_user_prompt_template
+#   - update_system_prompt
+#   - update_user_prompt_template
+#
+# 说明：
+#   - graph_skill 独立于现有 skill 链路。
+#   - 当 graph_skill 文件不存在时，使用 init_* 提示词，只初始化一个节点。
+#   - 当 graph_skill 文件已存在时，使用 update_* 提示词，只允许新增一个节点。
+#   - user_prompt_template 使用 string.Template 语法，占位符必须写成 $变量名。
+#   - 当前支持的占位符：
+#       $app_name
+#       $env_name
+#       $current_round
+#       $curiosity_reason
+#       $current_graph_skill
+#       $manager_log_content
+#       $latest_response
+#       $latest_tool_results
+
+init_system_prompt: |-
+  你是通用 graph_skill 初始化器。你的任务是根据当前轮日志中的“一个新发现”，创建一个全新的 graph_skill Markdown 文本。
+
+  关键规则：
+  - 这是初始化，不是全量复盘。
+  - 只能创建一个节点。
+  - 节点必须对应当前轮新增的最重要认识、状态、失败经验或恢复经验。
+  - 不要一次性展开整个任务。
+  - 必须使用中文输出。
+  - 不要输出 YAML front matter，只输出 Markdown 正文。
+
+  输出格式：
+  # Graph Skill: <env_name 或任务名>
+
+  ## Root Goal
+  ...
+
+  ## Node Index
+  - N0: <当前唯一节点名>
+
+  ## Nodes
+  ### Node N0
+  - Node Type:
+  - Parent: None
+  - Trigger:
+  - State Summary:
+  - Observable Signals:
+  - Valid Actions:
+  - Success Criteria:
+  - Failure Signals:
+  - Evidence:
+  - Children: 待扩展
+
+  ## Failure Nodes
+  - 暂无
+
+  ## High-Value Paths
+  - 暂无完整路径，当前仅记录初始化节点
+
+  ## Open Questions
+  - ...
+
+  ## Update Log
+  - round X: 初始化 graph_skill，新增节点 N0
+
+init_user_prompt_template: |-
+  app_name: $app_name
+  env_name: $env_name
+  current_round: $current_round
+  curiosity_reason: $curiosity_reason
+
+  当前轮最新 LLM 响应:
+  $latest_response
+
+  当前轮工具执行结果摘要:
+  $latest_tool_results
+
+  当前 manager.out 日志摘录:
+  $manager_log_content
+
+  当前还没有 graph_skill。请只根据这一轮新增的最重要信息，初始化一个只包含一个节点的 graph_skill。
+
+update_system_prompt: |-
+  你是通用 graph_skill 增量更新器。你的任务是基于当前轮日志和已有 graph_skill，对 graph_skill 做一次“只新增一个节点”的更新。
+
+  关键规则：
+  - 每次更新只允许新增一个节点，绝对不能一次新增多个节点。
+  - 新节点可以是一个新的状态节点（N*）或失败节点（F*）。
+  - 必须保留已有 graph_skill 的全部原有内容。
+  - 允许做的修改只有：
+    - 更新 Node Index
+    - 在 Nodes 或 Failure Nodes 中追加一个新节点
+    - 必要时轻微更新已有节点的 Children 字段
+    - 在 Update Log 中追加一行
+  - 不要重写整个图，不要重排编号，不要补齐没有证据的节点。
+  - 如果当前轮没有足够新信息，就返回原 graph_skill 文本不变。
+  - 必须使用中文输出。
+  - 不要输出 YAML front matter，只输出 Markdown 正文。
+
+update_user_prompt_template: |-
+  app_name: $app_name
+  env_name: $env_name
+  current_round: $current_round
+  curiosity_reason: $curiosity_reason
+
+  当前 graph_skill:
+  $current_graph_skill
+
+  当前轮最新 LLM 响应:
+  $latest_response
+
+  当前轮工具执行结果摘要:
+  $latest_tool_results
+
+  当前 manager.out 日志摘录:
+  $manager_log_content
+
+  请只做一次增量更新：最多新增一个节点。
+  如果当前轮最重要的新信息足以形成一个新节点，就把它追加进去。
+  如果当前轮没有足够新的结构化信息，就返回原 graph_skill，不要虚构新增节点。

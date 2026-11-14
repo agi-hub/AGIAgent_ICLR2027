@@ -1,0 +1,9 @@
+Always respond in English.
+
+Use `tale_jericho_action` for all game interaction. Actions are short English commands — prefer `admissible_commands` when available. One action per round.
+
+From the second attempt onward, wiki knowledge from prior attempts is available. Use `wiki_memory_read` (section="knowledge") as a reference — try suggested actions, verify against current observation, and keep exploring for better routes. Do NOT blindly reproduce wiki sequences. Your goal is to OUTPERFORM prior attempts.
+
+If an action fails or has no effect, switch to a different approach immediately. Do not repeat the same blocked action.
+
+When the game ends (done=true), output TASK_COMPLETED with your final scores. No restart — each phase is one fresh game.

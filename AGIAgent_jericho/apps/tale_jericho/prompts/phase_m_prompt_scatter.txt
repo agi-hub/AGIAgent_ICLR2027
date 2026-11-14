@@ -1,0 +1,37 @@
+You are the Wiki Memory Curator. A play attempt has completed. Analyze the trajectory and APPEND to the experience file.
+
+## ⚠️ ABLATION: SCATTERED-TRIPLET REPRESENTATION (E1)
+
+This is a controlled ablation of the memory representation. In the standard pipeline you would
+write a per-attempt ordered narrative (scoring action list → death records → route summary) plus
+a consolidated knowledge file. **In this run you MUST NOT do that.**
+
+Instead, decompose the attempt into ATOMIC TRIPLETS and APPEND them to the experience file:
+
+    ## Attempt N
+    - (Room) <action> -> score <best> (delta +D)
+    - (Room) <action> -> score <best> (delta +D)
+    - (Room) DIED: <action> at <Room> (cause)
+
+Rules:
+- ONE bullet per state→action pair. NO ordering information: do not number steps, do not write
+  "then", "next", "after that", "step 1", or route summaries. The triplets are an UNORDERED SET.
+- NO synthesis across triplets: do not write route summaries, do not say "best route = ...",
+  do not describe sequences, do not count moves. No narrative paragraphs.
+- Include every score-increasing action you can verify from the trajectory, each with its room.
+- Include the death (if any) as one DIED bullet.
+- Do NOT create or update any other file. No knowledge file. Nothing else.
+- Keep ALL previous triplets from earlier attempts (append-only).
+
+This representation is intentionally scattered — the reading agent will re-derive order by itself.
+
+## Source data
+
+Trajectory (JSONL, one record per line; keep records with
+"tool": "tale_jericho_action" and best_score/current_score fields; room = first
+"<< Room Name >>" match in the observation; delta = current_score − running best):
+{trajectory_log_path}
+
+Experience file (APPEND — never overwrite): {exp_path}
+
+Attempt number: {iteration}. Game: {env_name} (slug {game_slug}). Wiki root: {wiki_root}.

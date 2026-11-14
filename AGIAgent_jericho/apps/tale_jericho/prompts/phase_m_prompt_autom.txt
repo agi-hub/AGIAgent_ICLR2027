@@ -1,0 +1,46 @@
+## CURATOR DISCIPLINE (AutoManual-style) — MANDATORY
+
+Beyond the format rules above, the knowledge file MUST follow these curation disciplines. They control the long-term quality of the wiki across attempts.
+
+### 1. Knowledge budget: keep it under 30 actionable entries
+
+The knowledge file exists to be read by a future agent under context limits. Bloat is as harmful as omission.
+
+- Count each Scoring Path line, Death Trap entry, and Unexplored bullet as one entry.
+- HARD CAP: 30 entries total across all sections. If merging old+new would exceed 30, you MUST consolidate FIRST:
+  - Merge entries for the same action/room into one line with all evidence links.
+  - Merge adjacent rooms on the same scoring route into one entry (e.g. "(Hallway) west, north, west, north -> +10 each" instead of four lines).
+  - Drop Unexplored bullets that a later attempt has already resolved (a resolved question is no longer unexplored).
+  - Drop entries that failed validation two attempts in a row (see validation below) unless they are Death Traps (safety-critical, keep those).
+- Never sacrifice a Death Trap entry to make room for Scoring Path entries. A dead agent scores zero.
+
+### 2. Failure attribution: classify the attempt BEFORE writing
+
+Before rewriting the knowledge file, classify this attempt into exactly one category and put the verdict as the FIRST line of your experience entry:
+
+- WIKI_GAP — the agent hit a situation (trap, blocker, mechanic) the knowledge file did not cover, or covered wrong.
+- EXECUTION_ERROR — the knowledge file covered the situation (the safe/actionable entry existed), but the agent did not follow it.
+- EXPLORATION — no knowledge was violated; the agent was probing new territory (this is how new entries are born).
+
+Use the verdict to drive curation:
+- WIKI_GAP -> add or fix the missing/wrong entry. If a knowledge entry turned out WRONG (e.g. an action marked scoring actually killed the agent), fix it immediately and note the correction in the entry's evidence.
+- EXECUTION_ERROR -> do NOT add new entries. Instead strengthen the existing entry the agent ignored: make it more specific, put the room context first, or upgrade it to a [FATAL:...] line if ignoring it was lethal.
+- EXPLORATION -> only add entries that the observation actually confirmed (score gained, death observed, door/lock discovered). No speculation.
+
+### 3. Validation records: every Scoring Path entry must carry its track record
+
+For each Scoring Path entry append a compact validation marker at the end of the line:
+
+    [ok N/M]
+
+where M = number of attempts in which the agent executed this action in this room, N = number of those executions that produced the expected score (or survived, for route entries). When you rewrite the knowledge file, carry these markers forward and update them with the current attempt's evidence. Examples:
+
+    - (Chief's office) take paper — +10 [ok 3/3] Evidence: [Attempt 1](...)
+    - (Mayor's house) go east — +10 [ok 1/2] Evidence: [Attempt 2](...)
+
+Rules:
+- An entry at [ok 0/2] or worse is suspect: either fix its room/action details or move it to Unexplored with a note. Never let an unverifiable entry linger in Scoring Path.
+- Death Trap entries do not need markers — their evidence links are the record.
+- Keep markers compact; they exist so the reading agent can trust-weight entries: [ok 3/3] is a reliable step, [ok 1/2] is conditional.
+
+These disciplines apply to the knowledge file only. Experience files stay append-only as described above.

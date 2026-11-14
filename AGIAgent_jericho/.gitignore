@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+nohup.out
+*.nohup.out
+manager.out
+
+# Local configuration
+.env
+.env.local
+.agia_last_output.json
+
+# Claude Code files
+.claude/
+CLAUDE.md
+
+#config
+config/config.txt
+
+# Runtime outputs (do not commit)
+my_outputs/
+long_term_memory/
+output_scienceworld_*/
+output_scienceworld_batch_*/
+output_tale_jericho_*/
+output_tale_jericho_batch_*/
+data/
+data_tale_alfworld/
+data_tale_textworld_express/
+apps/xiaohongshu/
+.agia_last_output.json
+
+# 2026-09-26 交接清理: 不上传项
+experiment_logs_nohup/
+nohup_*.out
+*.qzl
+nohup_abl*.out.bak
+# 大数据/二进制
+*.npz
+*.pdf
+*.png
+!apps/tale_jericho/docs/*.png
+main_en.pdf
+main_zh.pdf
+# 备份/临时
+archive_early/
+config.txt.bak
+papers/

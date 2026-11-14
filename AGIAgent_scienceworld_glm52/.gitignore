@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+nohup.out
+*.nohup.out
+manager.out
+
+# Local configuration
+.env
+.env.local
+.agia_last_output.json
+
+# Claude Code files
+.claude/
+CLAUDE.md
+
+#config
+# config/config.txt (private repo, keep configs)
+
+# Runtime outputs (do not commit)
+my_outputs/
+long_term_memory/
+output_scienceworld_*/
+output_scienceworld_batch_*/
+output_tale_jericho_*/
+output_tale_jericho_batch_*/
+# data/ (private repo, but data is too large, excluded)
+data_tale_alfworld/
+data_tale_textworld_express/
+apps/xiaohongshu/
+.agia_last_output.json

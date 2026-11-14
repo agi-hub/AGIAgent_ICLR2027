@@ -1,0 +1,15 @@
+{
+  "tool_help": {
+    "description": "Get detailed help information for a tool, including its parameters and usage examples.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "tool_name": {
+          "type": "string",
+          "description": "Name of the tool to inspect"
+        }
+      },
+      "required": ["tool_name"]
+    }
+  }
+}

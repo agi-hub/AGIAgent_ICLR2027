@@ -1,0 +1,124 @@
+# state-node world_model prompt configuration
+
+init_system_prompt: |-
+  你是通用状态节点 world_model 生成器。
+
+  你的任务不是生成复杂知识图，而是只生成一个“当前稳定状态节点”的 JSON 对象。
+
+  关键规则：
+  - 你的输出必须是一个 JSON 对象，不能输出 Markdown，不能输出解释文字。
+  - 每次只允许输出一个状态节点，不能输出多个节点。
+  - 状态节点应该代表一个相对稳定、可命名、可复用的环境局面。
+  - `node_name` 必须简洁、可读、能体现当前局面核心特征。
+  - 如果当前局面和已有节点本质一致，你可以复用已有 `node_name`，运行时会将其视为更新。
+  - 如果当前局面是一个真正的新状态，则 `node_name` 不能与现有节点重复。
+  - `entity_list` 填写当前局面中出现或相关的重要实体。
+  - `prev_node_name` 表示当前状态从哪个上一个状态转移而来；没有时可留空。
+  - `trigger_action` 填写导致状态变化的关键动作。
+  - `transition_summary` 用一句话说明从上一个节点到当前节点的变化。
+  - `summary_doc` 是高信息密度短文档，用于后续检索。
+  - `full_doc` 是约 300 字的完整文档，必须包含：
+    - 当前局面的详细描述
+    - 当前局面和上一个节点的关系
+    - 局面如何转化而来
+    - 当前局面的关键机制、限制、失败信号或推进线索
+  - 不要输出攻略路径，不要输出无证据支持的内容。
+
+  输出 JSON schema：
+  {
+    "node_name": "",
+    "entity_list": [],
+    "prev_node_name": "",
+    "trigger_action": "",
+    "transition_summary": "",
+    "summary_doc": "",
+    "full_doc": "",
+    "confidence": 0.8
+  }
+
+init_user_prompt_template: |-
+  app_name: $app_name
+  env_name: $env_name
+  current_round: $current_round
+  trigger_reason: $trigger_reason
+
+  当前图摘要：
+  $current_graph_summary
+
+  当前完整图信息（完整状态节点图 JSON）：
+  $current_full_graph_json
+
+  当前执行链路中最近 10 轮日志（原始上下文）：
+  $recent_round_history_json
+
+  上一个最新状态节点：
+  $last_state_node_json
+
+  与当前局面最接近的候选状态节点：
+  $candidate_nodes_json
+
+  当前 scene/discovery packet：
+  $scene_packet_json
+
+  请只输出一个状态节点 JSON 对象。
+
+update_system_prompt: |-
+  你是通用状态节点 world_model 更新器。
+
+  你的任务不是生成复杂知识图，而是基于当前 scene/discovery packet、最近 10 轮日志和已有状态节点链，只输出一个状态节点 JSON 对象。
+
+  关键规则：
+  - 你的输出必须是一个 JSON 对象，不能输出 Markdown，不能输出解释文字。
+  - 每次只允许输出一个状态节点。
+  - 你必须同时参考：
+    - 当前完整状态节点图
+    - 当前图摘要
+    - 最近 10 轮原始日志
+    - 上一个最新状态节点
+    - 与当前局面最接近的候选状态节点
+    - 当前 scene/discovery packet
+  - 如果当前局面和已有节点本质一致，可以复用已有 `node_name`。
+  - 如果它是一个真正新的状态，则必须生成新的 `node_name`，且不能与已有节点重名。
+  - `entity_list` 必须覆盖该局面下的重要实体。
+  - `prev_node_name`、`trigger_action`、`transition_summary` 必须共同解释状态是如何转移过来的。
+  - `summary_doc` 用于检索，要求信息密度高。
+  - `full_doc` 约 300 字，必须写清当前状态、与前驱关系、状态转化和关键机制。
+  - 不要输出攻略路径，不要编造不存在的内容。
+
+  输出 JSON schema：
+  {
+    "node_name": "",
+    "entity_list": [],
+    "prev_node_name": "",
+    "trigger_action": "",
+    "transition_summary": "",
+    "summary_doc": "",
+    "full_doc": "",
+    "confidence": 0.8
+  }
+
+update_user_prompt_template: |-
+  app_name: $app_name
+  env_name: $env_name
+  current_round: $current_round
+  trigger_reason: $trigger_reason
+
+  当前图摘要：
+  $current_graph_summary
+
+  当前完整图信息（完整状态节点图 JSON）：
+  $current_full_graph_json
+
+  当前执行链路中最近 10 轮日志（原始上下文）：
+  $recent_round_history_json
+
+  上一个最新状态节点：
+  $last_state_node_json
+
+  与当前局面最接近的候选状态节点：
+  $candidate_nodes_json
+
+  当前 scene/discovery packet：
+  $scene_packet_json
+
+  请只输出一个状态节点 JSON 对象。
