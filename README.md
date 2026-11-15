@@ -67,16 +67,6 @@ ln -s <data root>/AGIAgent_scienceworld_glm52_data <repo root>/AGIAgent_sciencew
 After restoring, launch experiments via the template in `AGIAgent_jericho/README_jericho_sciworld.md` §3.1
 (dependencies: `TALES_CACHE_HOME` game cache, `TALE_SUITE_ROOT` tale-suite, API key in `apps/*/config.txt`).
 
-## Integrity Check Values (self-check after restore)
-
-| Item | Expected |
-|---|---|
-| Jericho benchmark_results experiment dirs | 67 (incl. abl53/56 merged from the 20260917 copy) |
-| Jericho score_summary.json total | 8600 |
-| SW benchmark_results experiment dirs | 20 |
-| SW score_summary.json total | 1833 |
-| phase_records.json | 416 (Jericho) + 416 (SW) |
-
 ## Key Documents (inside the code package)
 
 - `AGIAgent_jericho/README_jericho_sciworld.md` — ★ Ops manual: protocols / ablation switches / analysis commands / pitfalls / SW §5.1
