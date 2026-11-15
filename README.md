@@ -89,12 +89,3 @@ After restoring, launch experiments via the template in `AGIAgent_jericho/README
 `AGIAgent_jericho/scripts/` contains the two audit scripts backing appendix tables A2/A3 (usage, data dependencies and expected outputs: see ops manual §6.1):
 
 - `audit_advice_quality.py` — advice-quality audit: classifies all 463 schema-page entries (80% verified / 14% partial / 6% unverified / 0 contradicted) and adjudicates the 38 logged deaths (0 violated a complete warning).
-- `audit_token_costs.py` — token/curation cost audit: ReAct 1.22M / gist-only 1.88M / BISE 1.64M tok per attempt, curation share 8%.
-Both read only data shipped in the release archives; the data root defaults to `<repo>/data` or can be overridden via `AGIA_DATA_ROOT`.
-
-## Removed Content (do not look for these)
-
-nohup console logs, `experiment_logs_nohup/`, `data/default/general/experience/` runner logs,
-`__pycache__`, legacy product scaffolding (GUI/jupyter_demo/routine etc.), and unrelated apps
-(childedu/colordoc/patent/tale_alfworld/tale_textworld/textquests). None affect experiment data;
-all experiment data lives in `benchmark_results`.
