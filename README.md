@@ -1,4 +1,4 @@
-# AGIAgent_ICLR2027 — Code & Data Package (Code / Data / Archives)
+# AGIAgent_ICLR2027 — Code & Data Package
 
 > Date: 2026-11-14 | Paper: brain-inspired-agent (ICLR 2027 submission)
 > Contains all ablation experiment code & data (n=3 finalized) for Jericho + ScienceWorld.
