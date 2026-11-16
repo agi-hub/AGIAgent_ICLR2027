@@ -1,51 +1,51 @@
-experiment,name,goal,model,backbone_protocol,ablation_config,parallel,run_date,mean_norm_pct,usable,api_issue,conclusion
-abl19_full,完整系统基线(full),量化全部机制开启时的性能上限,GLM-5.2,chat-based(健康期),无消融(知识+门+experiences+WM 全开),2,2026-08-01,58.4,可用,无(空转8.7/会话 健康阈值内),性能天花板单跑;后与 abl34/35 组成论文 full n=3(54.9)
-abl19_no_wiki,无持久记忆对照(底座),分离记忆系统总贡献,GLM-5.2,chat-based(健康期),no_wiki(全部跨局记忆关闭;仅局内30步滑窗),2,2026-08-03,33.6,可用,无(空转6.3),记忆系统总贡献=+21.3pp;十局平坦或略降(无学习)
-abl19_no_wiki_wm,无wiki+无世界模型,检验世界模型(WM)是否承载增益,GLM-5.2,chat-based(健康期),no_wiki_wm,2,2026-08-04,34.0,可用,无(空转6.3),WM 贡献≈+0.4pp(方差内);WM 不承载增益
-abl19_no_knowledge_old,旧版-语义(chat健康单跑),早期检验语义通道贡献,GLM-5.2,chat-based(健康期),no_knowledge,2,2026-08-04,34.8,可用但已被替代,无(空转8.4),单跑偏低;后被 abl38/39(native)替代;现仅历史参考
-abl21_no_knowledge,-语义 chat r1,语义通道贡献(chat口径第1跑),GLM-5.2,chat-based(退化期),no_knowledge,6,2026-08-19,46.1,弃用,是(空转30.6/会话),受 API 退化压低;由 native 重跑替代
-abl22_react,纯 ReAct 基线,无脚手架基线对照,GLM-5.2,chat-based(退化期),no_wiki+AGIA_REACT_PROMPT(纯system_prompt_react),6,2026-08-20,24.9,弃用(引用需注明),是(空转20.1),与 EvoTest naive 同水平;数字被空转压低
-abl23_autom,AutoManual 式策展,外部方法 AutoManual 复现对照,GLM-5.2,chat-based(退化期),no_wiki+AGIA_CURATOR_STYLE=autom(30条目手册+失败归因+验证标记+6000字符注入),6,2026-08-21,40.4,弃用(引用需注明),是(空转28.1),AutoManual 式手册 40.4 vs full 58.4;空转压低了绝对值;native 重跑待额度
-abl24_recmem,RecMem 外部基线,官方 RecMem(ACL2026)三层记忆对照,GLM-5.2,chat-based(退化期),官方 RecMem 原样(recurrence-gated 固化+三路检索;适配 tales 环境),6,2026-08-23,32.1,可用(局部瑕疵),轻度(Zork3 look56%/Balances 44%;干净重跑证实非API主因),原子事实表示撑不起路线复现;Detective/Library 干净复现;32.1 大体可信
-abl25_full,full 重跑 r2,full 重复性检验,GLM-5.2,chat-based(退化期),同 full,6,2026-09-02,43.3,弃用,是(空转29.2),被空转压低15pp;诊断出空转问题的关键对照
-abl26_full,full 重跑 r3,同上,GLM-5.2,chat-based(退化期),同 full,6,2026-09-03,47.5,弃用,是(空转21.5;Detective ep9模拟器崩溃已修复),同上
-abl27_full,full 重跑 r4,同上,GLM-5.2,chat-based(退化期),同 full,6,2026-09-05,42.0,弃用,是(空转24.3),同上
-abl28_full,full 重跑 r5,同上,GLM-5.2,chat-based(退化期),同 full,6,2026-09-06,44.1,弃用,是(空转18.4),同上;wiki 知识质量审计样本来源
-abl29_no_fatal,-门 chat r1,门贡献检验第1跑,GLM-5.2,chat-based(退化期),no_fatal_guard(检索保留;仅关预执行硬拦截),6,2026-09-07,40.8,弃用(双重问题),是(空转23.0)+格式漂移/幻觉通关各1局,Detective ep6-7 污染;早已剔除
-abl30_no_fatal,-门 chat r2,门贡献(chat口径),GLM-5.2,chat-based(退化期),no_fatal_guard,6,2026-09-09,46.0,弃用,是(空转21.8),与 abl31 组成 chat n=3=44.6±3.3(已由 native 替代)
-abl31_no_fatal,-门 chat r3,同上,GLM-5.2,chat-based(退化期),no_fatal_guard,6,2026-09-10,47.0,弃用,是(空转20.0),同上;门控审计(95次拦截/17%过阻塞)数据来源
-abl32_no_knowledge,-语义 chat r2,语义贡献(chat口径),GLM-5.2,chat-based(退化期),no_knowledge,6,2026-09-11,46.1,弃用,是(空转24.3),chat n=3=46.8±1.2;与 full 差0.2pp(chat口径结论)
-abl33_no_knowledge,-语义 chat r3,同上,GLM-5.2,chat-based(退化期),no_knowledge,6,2026-09-12,48.2,弃用,是(空转21.7),同上;Balances 25 首破 full 天花板
-abl34_full,full native r1,native 工具调用修复后的 full,GLM-5.2,native(Tool_calling_format=True),无消融,6,2026-09-14,54.0,可用,无(空转1.9),native 修复有效;论文 full n=3 成员
-abl35_full,full native r2,full 重复性(native),GLM-5.2,native,无消融,6,2026-09-14,52.4,可用,无(空转1.9),full n=2=53.2±1.2;Final 65.1±0.0 恢复健康期水平
-abl36_no_fatal,-门 native r1,门贡献(native口径),GLM-5.2,native,no_fatal_guard,6,2026-09-15,50.9,可用,无(空转1.9),门=0pp均值;0分局10%;Temple 35满分/Balances 25(无门探索红利)
-abl37_no_fatal,-门 native r2,同上,GLM-5.2,native,no_fatal_guard,6,2026-09-15,55.4,可用,无(空转3.1),-门 n=2=53.2±3.2=full;Final 68.3反超;Balances 30/Zork1 100 历史最高;门定性为保险非引擎
-abl38_no_knowledge,-语义 native r1,语义贡献(native口径),GLM-5.2,native,no_knowledge,6,2026-09-16,52.5,可用,无(空转1.8),语义页零均值贡献;Zork1 110x4 历史最高;experiences 单通道≈full
-abl39_no_knowledge,-语义 native r2,同上,GLM-5.2,native,no_knowledge,6,2026-09-18,54.5,可用,无(启动窗口有429瞬态后恢复),-语义 n=2=53.5±1.0;Δ-0.3pp 钉死语义页零贡献;Balances 30x9
-abl41_no_preextract,E5 主方案 r1,神经符号预抽取是否必需(支柱C),GLM-5.2,native(新key),AGIA_CURATOR_NO_PREEXTRACT=1(提示词含方法描述;LLM自抽),6,2026-09-18,57.9,可用,无(4次瞬态配额错误已恢复),E5 n=3=55.7±2.1(论文主方案);预抽取非性能必需;价值仅确定性/可审计/token效率
-abl42_scatter,E1 散点化表示 r1,有序叙事表示是否必需(支柱A),GLM-5.2,native,AGIA_CURATOR_REPRESENTATION=scatter(原子三元组;无叙事/无顺序/无knowledge文件),6,2026-09-19,49.7,可用,无,E1 n=3=44.2±4.9(与主方案差-11.5);散点表示显著掉分;叙事/结构承载增益
-abl43_notime,E2 去时序 r1,顺序信息是否必需(支柱A细分),GLM-5.2,native(新key),AGIA_CURATOR_NO_TIME=1+AGIA_SHUFFLE_WIKI=1(内容保留;顺序剥离;检索乱序等权),3,2026-09-19,48.2,可用,无,E2 n=3=51.9±3.3;去时序小幅掉分;顺序贡献温和
-abl41r_recmem_rerun,RecMem 官方干净重跑,排除 API 窗口疑点;复核 32.1,官方RecMem(修复后端),native json(新key chat+旧key embedding),无消融(官方原样;仅修 key 分离),3,2026-09-18,32.2,可用,无(0配额错误),RecMem n=3=33.4±1.8(32.2/32.7/35.5);Zork3 look死循环干净环境复现→表示固有缺陷非API问题
-abl44_pure_episodic,E6 纯实录 r1,零语义化下限(verbatim层),GLM-5.2,native,AGIA_CURATOR_PURE_EPISODIC=1+no_knowledge(禁因果/规则/结论/FATAL标签),6,2026-09-20,49.6,可用,无,E6 n=3=51.2±1.9;best 583 全场最高(Det 350x6);纯实录能保住大半性能
-abl45_no_preextract,E5 主方案 r2,同 abl41,GLM-5.2,native,AGIA_CURATOR_NO_PREEXTRACT=1,6,2026-09-20,54.5,可用,无,组成 E5 n=3=55.7±2.1
-abl46_no_preextract_no_semantic,E7 gist-only r1,LLM直读+去语义页(纯gist通道),GLM-5.2,native,AGIA_CURATOR_NO_PREEXTRACT=1+no_knowledge,6,2026-09-21,52.0,可用,无,E7 n=3=55.0±2.7≈主方案;语义页不承载增益(与-语义 n=2 一致)
-abl47_no_preextract,E5 主方案 r3,同 abl41,GLM-5.2,native,AGIA_CURATOR_NO_PREEXTRACT=1,6,2026-09-21,54.8,可用(曾429坏局已resume修补),瞬态429,E5 n=3 定稿 55.7±2.1;Final 68.0
-abl48_no_preextract_no_semantic,E7 gist-only r2,同 abl46,GLM-5.2,native,AGIA_CURATOR_NO_PREEXTRACT=1+no_knowledge,6,2026-09-22,56.3,可用,无,E7 n=3=55.0±2.7
-abl49_no_preextract_no_semantic,E7 gist-only r3,同 abl46,GLM-5.2,native,AGIA_CURATOR_NO_PREEXTRACT=1+no_knowledge,6,2026-09-22,56.7,可用,无,E7 n=3=55.0±2.7;E7≈E5 确认语义页零贡献
-abl50_autom_native,AutoManual 式手册 r1,最强外部基线复现,GLM-5.2,native(react),AGIA_REACT_PROMPT=1+AGIA_DISABLE_LOOP_DETECT=1+AGIA_CURATOR_STYLE=autom+no_wiki,6,2026-09-23,53.0,可用,无,AutoManual n=1=53.0;Library 99%/Zork1 26.4%;最强外部基线
-abl51_autom_native,AutoManual 式手册 r2,补 n=2,GLM-5.2,native(react),同 abl50,6,2026-09-24,中断,51/60 局被停(可 resume 续跑),无,中断待续
-abl52_autom_native,AutoManual 式手册 r3,补 n=3,GLM-5.2,native(react),同 abl50,6,2026-09-24,中断,32 summaries 部分完成,无,中断待核
-abl53_pure_episodic,E6 纯实录 r2(副本),同 abl44,GLM-5.2,native,同 abl44,6,2026-10-01,53.2,可用,无,E6 n=3=51.2±1.9
-abl54_scatter,E1 散点 r2(副本),同 abl42,GLM-5.2,native,同 abl42,6,2026-10-01,42.9,可用,无,E1 n=3=44.2±4.9
-abl55_notime,E2 去时序 r2(副本),同 abl43,GLM-5.2,native,同 abl43,6,2026-10-01,51.4,可用(r2缺1局),无,E2 n=3=51.9±3.3
-abl56_pure_episodic,E6 纯实录 r3(副本),同 abl44,GLM-5.2,native,同 abl44,6,2026-10-02,50.8,可用,无,E6 n=3=51.2±1.9 定稿
-abl57_scatter,E1 散点 r3(副本),同 abl42,GLM-5.2,native,同 abl42,6,2026-10-02,40.1,可用,无,E1 n=3=44.2±4.9 定稿;散点三跑全低确认
-abl58_notime,E2 去时序 r3(副本),同 abl43,GLM-5.2,native,同 abl43,6,2026-10-02,52.3,可用,无,E2 n=3=51.9±3.3 定稿
-abl59_main_N50,主方案 N=50 长程,收敛上限与跨游戏差异(EvoTest N=50 对照),GLM-5.2,native,主方案配置;50局×110步,6,2026-10-05,64.8,可用,无,Mean 64.8/后10局68.4/Final(第50局)69.0/best 538;Library收敛99%/Zork1步数不够/Balances-Temple-Zork3知识缺口;与 EvoTest N=50(Gemini 47.0/Claude 50.0)构成 matched-N 对照
-evotest_r1_r2_r3,EvoTest 外部基线 n=3,官方 scaffold 复现,GLM-5.2,官方EvoTest(thinking关),GLM_DISABLE_THINKING=1;10局×110步;seed 0(实际无效),串行,2026-09-20,37.7±2.6(35.8/36.7/40.7),可用,无,prompt进化+UCB;三跑稳定低于主方案-18pp
-evotest_thinking_on,EvoTest thinking 开,thinking 对该 scaffold 的影响,GLM-5.2,官方EvoTest(thinking开),GLM_DISABLE_THINKING=0,串行,2026-09-23,28.8,可用(n=1),无,thinking 有害(-8.9pp;400-token 动作预算挤压+行为分布错配)
-recmem_r1_r2_r3,RecMem 外部基线 n=3,官方三层记忆复现,GLM-5.2,官方RecMem,10局×110步;温度1.0;Qdrant,2-3,2026-09-18,33.4±1.8(32.2/32.7/35.5),可用,无,look 死循环三跑复现(30-53%)=表示固有缺陷;≈底座水平
-sw_glm52_test_full,SW 211对全量(论文源跑),论文所有 SW 数字出处,GLM-5.2(真5.2),chat-based,iterative 5局×100步 won-skip,8,2026-08-06,95.5(累计best),可用,无,148/211 首局满分;63困难子集 44.4→84.8(5局)/解39;44.4→70.0 含选择偏差
-sw_63_iterative_r1_r2_r3,SW 有记忆臂 n=3,63困难任务记忆净效应,GLM-5.3(coding端点),native,iterative 5局×100步;phase_m 15,3-8,2026-11-10,92.2±0.4(91.9/92.6/92.2),可用,无,满分53.3/63;首次重试局新解14.3;净效应+7.0pp
-sw_63_nomem_r1_r2_r3,SW 无记忆臂 n=3,同构对照(baseline链式5局),GLM-5.3(coding端点),native,baseline模式链式(won-skip手动);100步/局;3-8并行,2026-11-12,85.2±0.2(85.0/85.2/85.5),可用,无,满分41.7/63;重试局新解8.0;SW记忆净效应+7.0pp/+11.7任务,远小于Jericho +20pp
-sw_63_nomem_v2,SW 无记忆真5.2补跑,排除模型代差,GLM-5.2(中转真5.2),native,baseline单局,6,2026-09-23,71.8(13/63中断),中断,中转key过期,证明无记忆高分非5.3独有
+experiment,name,goal,model,backbone_protocol,ablation_config,parallel,mean_norm_pct,usable,api_issue,conclusion,run_date
+abl19_full,完整系统基线(full),量化全部机制开启时的性能上限,GLM-5.2,chat-based(健康期),无消融(知识+门+experiences+WM 全开),2,58.4,可用,无(空转8.7/会话 健康阈值内),性能天花板单跑;后与 abl34/35 组成论文 full n=3(54.9),2026-08-01
+abl19_no_wiki,无持久记忆对照(底座),分离记忆系统总贡献,GLM-5.2,chat-based(健康期),no_wiki(全部跨局记忆关闭;仅局内30步滑窗),2,33.6,可用,无(空转6.3),记忆系统总贡献=+21.3pp;十局平坦或略降(无学习),2026-08-03
+abl19_no_wiki_wm,无wiki+无世界模型,检验世界模型(WM)是否承载增益,GLM-5.2,chat-based(健康期),no_wiki_wm,2,34.0,可用,无(空转6.3),WM 贡献≈+0.4pp(方差内);WM 不承载增益,2026-08-04
+abl19_no_knowledge_old,旧版-语义(chat健康单跑),早期检验语义通道贡献,GLM-5.2,chat-based(健康期),no_knowledge,2,34.8,可用但已被替代,无(空转8.4),单跑偏低;后被 abl38/39(native)替代;现仅历史参考,2026-08-04
+abl21_no_knowledge,-语义 chat r1,语义通道贡献(chat口径第1跑),GLM-5.2,chat-based(退化期),no_knowledge,6,46.1,弃用,是(空转30.6/会话),受 API 退化压低;由 native 重跑替代,2026-08-19
+abl22_react,纯 ReAct 基线,无脚手架基线对照,GLM-5.2,chat-based(退化期),no_wiki+AGIA_REACT_PROMPT(纯system_prompt_react),6,24.9,弃用(引用需注明),是(空转20.1),与 EvoTest naive 同水平;数字被空转压低,2026-08-20
+abl23_autom,AutoManual 式策展,外部方法 AutoManual 复现对照,GLM-5.2,chat-based(退化期),no_wiki+AGIA_CURATOR_STYLE=autom(30条目手册+失败归因+验证标记+6000字符注入),6,40.4,弃用(引用需注明),是(空转28.1),AutoManual 式手册 40.4 vs full 58.4;空转压低了绝对值;native 重跑待额度,2026-08-21
+abl24_recmem,RecMem 外部基线,官方 RecMem(ACL2026)三层记忆对照,GLM-5.2,chat-based(退化期),官方 RecMem 原样(recurrence-gated 固化+三路检索;适配 tales 环境),6,32.1,可用(局部瑕疵),轻度(Zork3 look56%/Balances 44%;干净重跑证实非API主因),原子事实表示撑不起路线复现;Detective/Library 干净复现;32.1 大体可信,2026-08-23
+abl25_full,full 重跑 r2,full 重复性检验,GLM-5.2,chat-based(退化期),同 full,6,43.3,弃用,是(空转29.2),被空转压低15pp;诊断出空转问题的关键对照,2026-09-02
+abl26_full,full 重跑 r3,同上,GLM-5.2,chat-based(退化期),同 full,6,47.5,弃用,是(空转21.5;Detective ep9模拟器崩溃已修复),同上,2026-09-03
+abl27_full,full 重跑 r4,同上,GLM-5.2,chat-based(退化期),同 full,6,42.0,弃用,是(空转24.3),同上,2026-09-05
+abl28_full,full 重跑 r5,同上,GLM-5.2,chat-based(退化期),同 full,6,44.1,弃用,是(空转18.4),同上;wiki 知识质量审计样本来源,2026-09-06
+abl29_no_fatal,-门 chat r1,门贡献检验第1跑,GLM-5.2,chat-based(退化期),no_fatal_guard(检索保留;仅关预执行硬拦截),6,40.8,弃用(双重问题),是(空转23.0)+格式漂移/幻觉通关各1局,Detective ep6-7 污染;早已剔除,2026-09-07
+abl30_no_fatal,-门 chat r2,门贡献(chat口径),GLM-5.2,chat-based(退化期),no_fatal_guard,6,46.0,弃用,是(空转21.8),与 abl31 组成 chat n=3=44.6±3.3(已由 native 替代),2026-09-09
+abl31_no_fatal,-门 chat r3,同上,GLM-5.2,chat-based(退化期),no_fatal_guard,6,47.0,弃用,是(空转20.0),同上;门控审计(95次拦截/17%过阻塞)数据来源,2026-09-10
+abl32_no_knowledge,-语义 chat r2,语义贡献(chat口径),GLM-5.2,chat-based(退化期),no_knowledge,6,46.1,弃用,是(空转24.3),chat n=3=46.8±1.2;与 full 差0.2pp(chat口径结论),2026-09-11
+abl33_no_knowledge,-语义 chat r3,同上,GLM-5.2,chat-based(退化期),no_knowledge,6,48.2,弃用,是(空转21.7),同上;Balances 25 首破 full 天花板,2026-09-12
+abl34_full,full native r1,native 工具调用修复后的 full,GLM-5.2,native(Tool_calling_format=True),无消融,6,54.0,可用,无(空转1.9),native 修复有效;论文 full n=3 成员,2026-09-14
+abl35_full,full native r2,full 重复性(native),GLM-5.2,native,无消融,6,52.4,可用,无(空转1.9),full n=2=53.2±1.2;Final 65.1±0.0 恢复健康期水平,2026-09-14
+abl36_no_fatal,-门 native r1,门贡献(native口径),GLM-5.2,native,no_fatal_guard,6,50.9,可用,无(空转1.9),门=0pp均值;0分局10%;Temple 35满分/Balances 25(无门探索红利),2026-09-15
+abl37_no_fatal,-门 native r2,同上,GLM-5.2,native,no_fatal_guard,6,55.4,可用,无(空转3.1),-门 n=2=53.2±3.2=full;Final 68.3反超;Balances 30/Zork1 100 历史最高;门定性为保险非引擎,2026-09-15
+abl38_no_knowledge,-语义 native r1,语义贡献(native口径),GLM-5.2,native,no_knowledge,6,52.5,可用,无(空转1.8),语义页零均值贡献;Zork1 110x4 历史最高;experiences 单通道≈full,2026-09-16
+abl39_no_knowledge,-语义 native r2,同上,GLM-5.2,native,no_knowledge,6,54.5,可用,无(启动窗口有429瞬态后恢复),-语义 n=2=53.5±1.0;Δ-0.3pp 钉死语义页零贡献;Balances 30x9,2026-09-18
+abl41_no_preextract,E5 主方案 r1,神经符号预抽取是否必需(支柱C),GLM-5.2,native(新key),AGIA_CURATOR_NO_PREEXTRACT=1(提示词含方法描述;LLM自抽),6,57.9,可用,无(4次瞬态配额错误已恢复),E5 n=3=55.7±2.1(论文主方案);预抽取非性能必需;价值仅确定性/可审计/token效率,2026-09-18
+abl42_scatter,E1 散点化表示 r1,有序叙事表示是否必需(支柱A),GLM-5.2,native,AGIA_CURATOR_REPRESENTATION=scatter(原子三元组;无叙事/无顺序/无knowledge文件),6,49.7,可用,无,E1 n=3=44.2±4.9(与主方案差-11.5);散点表示显著掉分;叙事/结构承载增益,2026-09-19
+abl43_notime,E2 去时序 r1,顺序信息是否必需(支柱A细分),GLM-5.2,native(新key),AGIA_CURATOR_NO_TIME=1+AGIA_SHUFFLE_WIKI=1(内容保留;顺序剥离;检索乱序等权),3,48.2,可用,无,E2 n=3=51.9±3.3;去时序小幅掉分;顺序贡献温和,2026-09-19
+abl41r_recmem_rerun,RecMem 官方干净重跑,排除 API 窗口疑点;复核 32.1,官方RecMem(修复后端),native json(新key chat+旧key embedding),无消融(官方原样;仅修 key 分离),3,32.2,可用,无(0配额错误),RecMem n=3=33.4±1.8(32.2/32.7/35.5);Zork3 look死循环干净环境复现→表示固有缺陷非API问题,2026-09-18
+abl44_pure_episodic,E6 纯实录 r1,零语义化下限(verbatim层),GLM-5.2,native,AGIA_CURATOR_PURE_EPISODIC=1+no_knowledge(禁因果/规则/结论/FATAL标签),6,49.6,可用,无,E6 n=3=51.2±1.9;best 583 全场最高(Det 350x6);纯实录能保住大半性能,2026-09-20
+abl45_no_preextract,E5 主方案 r2,同 abl41,GLM-5.2,native,AGIA_CURATOR_NO_PREEXTRACT=1,6,54.5,可用,无,组成 E5 n=3=55.7±2.1,2026-09-20
+abl46_no_preextract_no_semantic,E7 gist-only r1,LLM直读+去语义页(纯gist通道),GLM-5.2,native,AGIA_CURATOR_NO_PREEXTRACT=1+no_knowledge,6,52.0,可用,无,E7 n=3=55.0±2.7≈主方案;语义页不承载增益(与-语义 n=2 一致),2026-09-21
+abl47_no_preextract,E5 主方案 r3,同 abl41,GLM-5.2,native,AGIA_CURATOR_NO_PREEXTRACT=1,6,54.8,可用(曾429坏局已resume修补),瞬态429,E5 n=3 定稿 55.7±2.1;Final 68.0,2026-09-21
+abl48_no_preextract_no_semantic,E7 gist-only r2,同 abl46,GLM-5.2,native,AGIA_CURATOR_NO_PREEXTRACT=1+no_knowledge,6,56.3,可用,无,E7 n=3=55.0±2.7,2026-09-22
+abl49_no_preextract_no_semantic,E7 gist-only r3,同 abl46,GLM-5.2,native,AGIA_CURATOR_NO_PREEXTRACT=1+no_knowledge,6,56.7,可用,无,E7 n=3=55.0±2.7;E7≈E5 确认语义页零贡献,2026-09-22
+abl50_autom_native,AutoManual 式手册 r1,最强外部基线复现,GLM-5.2,native(react),AGIA_REACT_PROMPT=1+AGIA_DISABLE_LOOP_DETECT=1+AGIA_CURATOR_STYLE=autom+no_wiki,6,53.0,可用,无,AutoManual n=1=53.0;Library 99%/Zork1 26.4%;最强外部基线,2026-09-23
+abl51_autom_native,AutoManual 式手册 r2,补 n=2,GLM-5.2,native(react),同 abl50,6,中断,51/60 局被停(可 resume 续跑),无,中断待续,2026-09-24
+abl52_autom_native,AutoManual 式手册 r3,补 n=3,GLM-5.2,native(react),同 abl50,6,中断,32 summaries 部分完成,无,中断待核,2026-09-24
+abl53_pure_episodic,E6 纯实录 r2(副本),同 abl44,GLM-5.2,native,同 abl44,6,53.2,可用,无,E6 n=3=51.2±1.9,2026-10-01
+abl54_scatter,E1 散点 r2(副本),同 abl42,GLM-5.2,native,同 abl42,6,42.9,可用,无,E1 n=3=44.2±4.9,2026-10-01
+abl55_notime,E2 去时序 r2(副本),同 abl43,GLM-5.2,native,同 abl43,6,51.4,可用(r2缺1局),无,E2 n=3=51.9±3.3,2026-10-01
+abl56_pure_episodic,E6 纯实录 r3(副本),同 abl44,GLM-5.2,native,同 abl44,6,50.8,可用,无,E6 n=3=51.2±1.9 定稿,2026-10-02
+abl57_scatter,E1 散点 r3(副本),同 abl42,GLM-5.2,native,同 abl42,6,40.1,可用,无,E1 n=3=44.2±4.9 定稿;散点三跑全低确认,2026-10-02
+abl58_notime,E2 去时序 r3(副本),同 abl43,GLM-5.2,native,同 abl43,6,52.3,可用,无,E2 n=3=51.9±3.3 定稿,2026-10-02
+abl59_main_N50,主方案 N=50 长程,收敛上限与跨游戏差异(EvoTest N=50 对照),GLM-5.2,native,主方案配置;50局×110步,6,64.8,可用,无,Mean 64.8/后10局68.4/Final(第50局)69.0/best 538;Library收敛99%/Zork1步数不够/Balances-Temple-Zork3知识缺口;与 EvoTest N=50(Gemini 47.0/Claude 50.0)构成 matched-N 对照,2026-10-05
+evotest_r1_r2_r3,EvoTest 外部基线 n=3,官方 scaffold 复现,GLM-5.2,官方EvoTest(thinking关),GLM_DISABLE_THINKING=1;10局×110步;seed 0(实际无效),串行,37.7±2.6(35.8/36.7/40.7),可用,无,prompt进化+UCB;三跑稳定低于主方案-18pp,2026-09-20
+evotest_thinking_on,EvoTest thinking 开,thinking 对该 scaffold 的影响,GLM-5.2,官方EvoTest(thinking开),GLM_DISABLE_THINKING=0,串行,28.8,可用(n=1),无,thinking 有害(-8.9pp;400-token 动作预算挤压+行为分布错配),2026-09-23
+recmem_r1_r2_r3,RecMem 外部基线 n=3,官方三层记忆复现,GLM-5.2,官方RecMem,10局×110步;温度1.0;Qdrant,2-3,33.4±1.8(32.2/32.7/35.5),可用,无,look 死循环三跑复现(30-53%)=表示固有缺陷;≈底座水平,2026-09-18
+sw_glm52_test_full,SW 211对全量(论文源跑),论文所有 SW 数字出处,GLM-5.2(真5.2),chat-based,iterative 5局×100步 won-skip,8,95.5(累计best),可用,无,148/211 首局满分;63困难子集 44.4→84.8(5局)/解39;44.4→70.0 含选择偏差,2026-08-06
+sw_63_iterative_r1_r2_r3,SW 有记忆臂 n=3,63困难任务记忆净效应,GLM-5.3(coding端点),native,iterative 5局×100步;phase_m 15,3-8,92.2±0.4(91.9/92.6/92.2),可用,无,满分53.3/63;首次重试局新解14.3;净效应+7.0pp,2026-11-10
+sw_63_nomem_r1_r2_r3,SW 无记忆臂 n=3,同构对照(baseline链式5局),GLM-5.3(coding端点),native,baseline模式链式(won-skip手动);100步/局;3-8并行,2026-11-12,可用,无,满分41.7/63;重试局新解8.0;SW记忆净效应+7.0pp/+11.7任务,远小于Jericho +20pp,85.2±0.2(85.0/85.2/85.5)
+sw_63_nomem_v2,SW 无记忆真5.2补跑,排除模型代差,GLM-5.2(中转真5.2),native,baseline单局,6,71.8(13/63中断),中断,中转key过期,证明无记忆高分非5.3独有,2026-09-23
